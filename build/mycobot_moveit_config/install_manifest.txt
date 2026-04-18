@@ -1,0 +1,15 @@
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/ament_index/resource_index/package_run_dependencies/mycobot_moveit_config
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/ament_index/resource_index/parent_prefix_path/mycobot_moveit_config
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.sh
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/ament_prefix_path.dsv
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.sh
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/environment/path.dsv
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.bash
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.sh
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.zsh
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/local_setup.dsv
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/package.dsv
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/ament_index/resource_index/packages/mycobot_moveit_config
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig.cmake
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/cmake/mycobot_moveit_configConfig-version.cmake
+/home/amira/mycobot_ros2/install/mycobot_moveit_config/share/mycobot_moveit_config/package.xml

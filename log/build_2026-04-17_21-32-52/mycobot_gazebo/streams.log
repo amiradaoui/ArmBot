@@ -1,0 +1,34 @@
+[0.051s] Invoking command in '/home/amira/mycobot_ros2/build/mycobot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amira/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mycobot_gazebo
+[1.061s] -- The C compiler identification is GNU 13.3.0
+[1.793s] -- The CXX compiler identification is GNU 13.3.0
+[1.914s] -- Detecting C compiler ABI info
+[2.653s] -- Detecting C compiler ABI info - done
+[2.678s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.686s] -- Detecting C compile features
+[2.694s] -- Detecting C compile features - done
+[2.780s] -- Detecting CXX compiler ABI info
+[3.644s] -- Detecting CXX compiler ABI info - done
+[3.699s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.699s] -- Detecting CXX compile features
+[3.699s] -- Detecting CXX compile features - done
+[3.935s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.753s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.507s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[5.509s]   By not providing "Findcontroller_manager.cmake" in CMAKE_MODULE_PATH this
+[5.512s]   project has asked CMake to find a package configuration file provided by
+[5.512s]   "controller_manager", but CMake did not find one.
+[5.512s] 
+[5.512s]   Could not find a package configuration file provided by
+[5.512s]   "controller_manager" with any of the following names:
+[5.513s] 
+[5.513s]     controller_managerConfig.cmake
+[5.513s]     controller_manager-config.cmake
+[5.514s] 
+[5.514s]   Add the installation prefix of "controller_manager" to CMAKE_PREFIX_PATH or
+[5.514s]   set "controller_manager_DIR" to a directory containing one of the above
+[5.514s]   files.  If "controller_manager" provides a separate development package or
+[5.514s]   SDK, be sure it has been installed.
+[5.515s] 
+[5.515s] [0m
+[5.515s] -- Configuring incomplete, errors occurred!
+[5.551s] Invoked command in '/home/amira/mycobot_ros2/build/mycobot_gazebo' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amira/mycobot_ros2/mycobot_gazebo -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mycobot_gazebo
