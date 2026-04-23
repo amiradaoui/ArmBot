@@ -1,1 +1,0 @@
-Invoking command in '/home/amira/mycobot_ros2/build/mycobot_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amira/mycobot_ros2/mycobot_moveit_config -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mycobot_moveit_config
