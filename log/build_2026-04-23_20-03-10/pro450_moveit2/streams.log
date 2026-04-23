@@ -1,0 +1,60 @@
+[0.098s] Invoking command in '/home/amira/mycobot_ros2/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amira/mycobot_ros2/src/mycobot_pro/pro450_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/pro450_moveit2
+[0.319s] -- The C compiler identification is GNU 13.3.0
+[0.629s] -- The CXX compiler identification is GNU 13.3.0
+[0.655s] -- Detecting C compiler ABI info
+[1.217s] -- Detecting C compiler ABI info - done
+[1.249s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.250s] -- Detecting C compile features
+[1.252s] -- Detecting C compile features - done
+[1.288s] -- Detecting CXX compiler ABI info
+[1.807s] -- Detecting CXX compiler ABI info - done
+[1.864s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.866s] -- Detecting CXX compile features
+[1.867s] -- Detecting CXX compile features - done
+[1.882s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.947s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.731s] -- Configuring done (3.6s)
+[3.755s] -- Generating done (0.0s)
+[3.761s] -- Build files have been written to: /home/amira/mycobot_ros2/build/pro450_moveit2
+[3.805s] Invoked command in '/home/amira/mycobot_ros2/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amira/mycobot_ros2/src/mycobot_pro/pro450_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/pro450_moveit2
+[3.806s] Invoking command in '/home/amira/mycobot_ros2/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amira/mycobot_ros2/build/pro450_moveit2 -- -j3 -l3
+[4.014s] Invoked command in '/home/amira/mycobot_ros2/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amira/mycobot_ros2/build/pro450_moveit2 -- -j3 -l3
+[4.015s] Invoking command in '/home/amira/mycobot_ros2/build/pro450_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amira/mycobot_ros2/build/pro450_moveit2
+[4.099s] -- Install configuration: ""
+[4.102s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/ament_index/resource_index/package_run_dependencies/pro450_moveit2
+[4.104s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/ament_index/resource_index/parent_prefix_path/pro450_moveit2
+[4.105s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/environment/ament_prefix_path.sh
+[4.105s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/environment/ament_prefix_path.dsv
+[4.109s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/environment/path.sh
+[4.110s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/environment/path.dsv
+[4.111s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/local_setup.bash
+[4.111s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/local_setup.sh
+[4.111s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/local_setup.zsh
+[4.112s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/local_setup.dsv
+[4.133s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/package.dsv
+[4.134s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/ament_index/resource_index/packages/pro450_moveit2
+[4.134s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/cmake/pro450_moveit2Config.cmake
+[4.134s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/cmake/pro450_moveit2Config-version.cmake
+[4.135s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/package.xml
+[4.135s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch
+[4.135s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/moveit_rviz.launch.py
+[4.139s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/warehouse_db.launch.py
+[4.159s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/rsp.launch.py
+[4.159s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/setup_assistant.launch.py
+[4.159s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/spawn_controllers.launch.py
+[4.160s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/move_group.launch.py
+[4.230s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/demo.launch.py
+[4.232s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/launch/static_virtual_joint_tfs.launch.py
+[4.232s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config
+[4.232s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.urdf.xacro
+[4.233s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.ros2_control.xacro
+[4.233s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/initial_positions.yaml
+[4.233s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/joint_limits.yaml
+[4.247s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/kinematics.yaml
+[4.255s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/moveit.rviz
+[4.257s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/firefighter.srdf
+[4.283s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/moveit_controllers.yaml
+[4.284s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/ros2_controllers.yaml
+[4.284s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/config/pilz_cartesian_limits.yaml
+[4.288s] -- Installing: /home/amira/mycobot_ros2/install/pro450_moveit2/share/pro450_moveit2/.setup_assistant
+[4.308s] Invoked command in '/home/amira/mycobot_ros2/build/pro450_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amira/mycobot_ros2/build/pro450_moveit2

@@ -1,0 +1,77 @@
+[3.046s] Invoking command in '/home/amira/mycobot_ros2/src/mypalletizer_260/mypalletizer_260': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mypalletizer_260/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypalletizer_260 build --build-base /home/amira/mycobot_ros2/build/mypalletizer_260/build install --record /home/amira/mycobot_ros2/build/mypalletizer_260/install.log --single-version-externally-managed install_data
+[4.223s] running egg_info
+[4.223s] creating ../../../build/mypalletizer_260/mypalletizer_260.egg-info
+[4.223s] writing ../../../build/mypalletizer_260/mypalletizer_260.egg-info/PKG-INFO
+[4.224s] writing dependency_links to ../../../build/mypalletizer_260/mypalletizer_260.egg-info/dependency_links.txt
+[4.225s] writing entry points to ../../../build/mypalletizer_260/mypalletizer_260.egg-info/entry_points.txt
+[4.229s] writing requirements to ../../../build/mypalletizer_260/mypalletizer_260.egg-info/requires.txt
+[4.232s] writing top-level names to ../../../build/mypalletizer_260/mypalletizer_260.egg-info/top_level.txt
+[4.232s] writing manifest file '../../../build/mypalletizer_260/mypalletizer_260.egg-info/SOURCES.txt'
+[4.311s] reading manifest file '../../../build/mypalletizer_260/mypalletizer_260.egg-info/SOURCES.txt'
+[4.315s] adding license file 'LICENSE'
+[4.322s] writing manifest file '../../../build/mypalletizer_260/mypalletizer_260.egg-info/SOURCES.txt'
+[4.326s] running build
+[4.329s] running build_py
+[4.329s] creating /home/amira/mycobot_ros2/build/mypalletizer_260/build
+[4.329s] creating /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib
+[4.329s] creating /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.330s] copying mypalletizer_260/slider_control.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.330s] copying mypalletizer_260/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.330s] copying mypalletizer_260/follow_display.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.333s] copying mypalletizer_260/listen_real.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.340s] copying mypalletizer_260/listen_real_service.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.341s] copying mypalletizer_260/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.351s] copying mypalletizer_260/simple_gui.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.352s] copying mypalletizer_260/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.355s] copying mypalletizer_260/__init__.py -> /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260
+[4.355s] running install
+[4.382s] running install_lib
+[4.463s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.464s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/slider_control.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.465s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.466s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/follow_display.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.467s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/listen_real.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.468s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/listen_real_service.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.469s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.469s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/simple_gui.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.470s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.472s] copying /home/amira/mycobot_ros2/build/mypalletizer_260/build/lib/mypalletizer_260/__init__.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260
+[4.476s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/slider_control.py to slider_control.cpython-312.pyc
+[4.478s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[4.480s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/follow_display.py to follow_display.cpython-312.pyc
+[4.483s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/listen_real.py to listen_real.cpython-312.pyc
+[4.486s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/listen_real_service.py to listen_real_service.cpython-312.pyc
+[4.491s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[4.493s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/simple_gui.py to simple_gui.cpython-312.pyc
+[4.505s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[4.512s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260/__init__.py to __init__.cpython-312.pyc
+[4.513s] running install_data
+[4.513s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/share/ament_index
+[4.514s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/share/ament_index/resource_index
+[4.514s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/share/ament_index/resource_index/packages
+[4.515s] copying resource/mypalletizer_260 -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/ament_index/resource_index/packages
+[4.515s] copying package.xml -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260
+[4.519s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.521s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.522s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.524s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.527s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.556s] copying launch/test_gripper.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.557s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.562s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/launch
+[4.563s] creating /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/config
+[4.568s] copying config/mypalletizer.rviz -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/config
+[4.570s] copying config/mycobot_with_marker.rviz -> /home/amira/mycobot_ros2/install/mypalletizer_260/share/mypalletizer_260/config
+[4.574s] running install_egg_info
+[4.674s] Copying ../../../build/mypalletizer_260/mypalletizer_260.egg-info to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages/mypalletizer_260-0.0.0-py3.12.egg-info
+[4.680s] running install_scripts
+[5.138s] Installing follow_display script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.143s] Installing listen_real script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.144s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.145s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.146s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.149s] Installing slider_control script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.157s] Installing slider_control_adaptive_gripper script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.167s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mypalletizer_260/lib/mypalletizer_260
+[5.168s] writing list of installed files to '/home/amira/mycobot_ros2/build/mypalletizer_260/install.log'
+[5.263s] Invoked command in '/home/amira/mycobot_ros2/src/mypalletizer_260/mypalletizer_260' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mypalletizer_260/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mypalletizer_260/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypalletizer_260 build --build-base /home/amira/mycobot_ros2/build/mypalletizer_260/build install --record /home/amira/mycobot_ros2/build/mypalletizer_260/install.log --single-version-externally-managed install_data

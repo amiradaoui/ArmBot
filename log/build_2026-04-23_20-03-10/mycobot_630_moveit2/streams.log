@@ -1,0 +1,61 @@
+[0.132s] Invoking command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amira/mycobot_ros2/src/mycobot_pro/mycobot_630_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mycobot_630_moveit2
+[0.464s] -- The C compiler identification is GNU 13.3.0
+[0.897s] -- The CXX compiler identification is GNU 13.3.0
+[0.996s] -- Detecting C compiler ABI info
+[1.540s] -- Detecting C compiler ABI info - done
+[1.599s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.601s] -- Detecting C compile features
+[1.603s] -- Detecting C compile features - done
+[2.047s] -- Detecting CXX compiler ABI info
+[2.783s] -- Detecting CXX compiler ABI info - done
+[2.812s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.813s] -- Detecting CXX compile features
+[2.814s] -- Detecting CXX compile features - done
+[2.832s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.537s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.107s] -- Configuring done (3.9s)
+[4.122s] -- Generating done (0.0s)
+[4.128s] -- Build files have been written to: /home/amira/mycobot_ros2/build/mycobot_630_moveit2
+[4.338s] Invoked command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/amira/mycobot_ros2/src/mycobot_pro/mycobot_630_moveit2 -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mycobot_630_moveit2
+[4.347s] Invoking command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amira/mycobot_ros2/build/mycobot_630_moveit2 -- -j3 -l3
+[4.627s] Invoked command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/amira/mycobot_ros2/build/mycobot_630_moveit2 -- -j3 -l3
+[4.631s] Invoking command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amira/mycobot_ros2/build/mycobot_630_moveit2
+[4.687s] -- Install configuration: ""
+[4.688s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/ament_index/resource_index/package_run_dependencies/mycobot_630_moveit2
+[4.689s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/ament_index/resource_index/parent_prefix_path/mycobot_630_moveit2
+[4.694s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/environment/ament_prefix_path.sh
+[4.696s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/environment/ament_prefix_path.dsv
+[4.697s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/environment/path.sh
+[4.697s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/environment/path.dsv
+[4.698s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/local_setup.bash
+[4.699s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/local_setup.sh
+[4.700s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/local_setup.zsh
+[4.703s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/local_setup.dsv
+[4.703s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/package.dsv
+[4.703s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/ament_index/resource_index/packages/mycobot_630_moveit2
+[4.704s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/cmake/mycobot_630_moveit2Config.cmake
+[4.704s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/cmake/mycobot_630_moveit2Config-version.cmake
+[4.704s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/package.xml
+[4.704s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch
+[4.704s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/moveit_rviz.launch.py
+[4.705s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/warehouse_db.launch.py
+[4.728s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/rsp.launch.py
+[4.728s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/setup_assistant.launch.py
+[4.728s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/spawn_controllers.launch.py
+[4.728s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/move_group.launch.py
+[4.729s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/demo.launch.py
+[4.742s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/launch/static_virtual_joint_tfs.launch.py
+[4.748s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config
+[4.749s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/firefighter.urdf.xacro
+[4.752s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/firefighter.ros2_control.xacro
+[4.755s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/initial_positions.yaml
+[4.770s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/joint_limits.yaml
+[4.772s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/kinematics.yaml
+[4.772s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/moveit.rviz
+[4.773s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/firefighter.srdf
+[4.774s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/sensors_3d.yaml
+[4.774s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/moveit_controllers.yaml
+[4.774s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/ros2_controllers.yaml
+[4.774s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/config/pilz_cartesian_limits.yaml
+[4.775s] -- Installing: /home/amira/mycobot_ros2/install/mycobot_630_moveit2/share/mycobot_630_moveit2/.setup_assistant
+[4.798s] Invoked command in '/home/amira/mycobot_ros2/build/mycobot_630_moveit2' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/amira/mycobot_ros2/build/mycobot_630_moveit2

@@ -1,0 +1,58 @@
+[3.437s] Invoking command in '/home/amira/mycobot_ros2/src/myArm/myarm_300': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/myarm_300 build --build-base /home/amira/mycobot_ros2/build/myarm_300/build install --record /home/amira/mycobot_ros2/build/myarm_300/install.log --single-version-externally-managed install_data
+[4.876s] running egg_info
+[4.877s] creating ../../../build/myarm_300/myarm_300.egg-info
+[5.022s] writing ../../../build/myarm_300/myarm_300.egg-info/PKG-INFO
+[5.025s] writing dependency_links to ../../../build/myarm_300/myarm_300.egg-info/dependency_links.txt
+[5.026s] writing entry points to ../../../build/myarm_300/myarm_300.egg-info/entry_points.txt
+[5.028s] writing requirements to ../../../build/myarm_300/myarm_300.egg-info/requires.txt
+[5.029s] writing top-level names to ../../../build/myarm_300/myarm_300.egg-info/top_level.txt
+[5.030s] writing manifest file '../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[5.184s] reading manifest file '../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[5.184s] adding license file 'LICENSE'
+[5.184s] writing manifest file '../../../build/myarm_300/myarm_300.egg-info/SOURCES.txt'
+[5.184s] running build
+[5.184s] running build_py
+[5.196s] creating /home/amira/mycobot_ros2/build/myarm_300/build
+[5.197s] creating /home/amira/mycobot_ros2/build/myarm_300/build/lib
+[5.203s] creating /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.204s] copying myarm_300/slider_control.py -> /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.207s] copying myarm_300/follow_display.py -> /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.208s] copying myarm_300/simple_gui.py -> /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.208s] copying myarm_300/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.209s] copying myarm_300/__init__.py -> /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300
+[5.210s] running install
+[5.227s] running install_lib
+[5.325s] creating /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.365s] copying /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300/slider_control.py -> /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.365s] copying /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300/follow_display.py -> /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.365s] copying /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300/simple_gui.py -> /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.365s] copying /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.366s] copying /home/amira/mycobot_ros2/build/myarm_300/build/lib/myarm_300/__init__.py -> /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300
+[5.366s] byte-compiling /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300/slider_control.py to slider_control.cpython-312.pyc
+[5.366s] byte-compiling /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300/follow_display.py to follow_display.cpython-312.pyc
+[5.379s] byte-compiling /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300/simple_gui.py to simple_gui.cpython-312.pyc
+[5.422s] byte-compiling /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[5.429s] byte-compiling /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300/__init__.py to __init__.cpython-312.pyc
+[5.435s] running install_data
+[5.441s] creating /home/amira/mycobot_ros2/install/myarm_300/share/ament_index
+[5.441s] creating /home/amira/mycobot_ros2/install/myarm_300/share/ament_index/resource_index
+[5.441s] creating /home/amira/mycobot_ros2/install/myarm_300/share/ament_index/resource_index/packages
+[5.442s] copying resource/myarm_300 -> /home/amira/mycobot_ros2/install/myarm_300/share/ament_index/resource_index/packages
+[5.445s] copying package.xml -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300
+[5.450s] creating /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.450s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.451s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.456s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.461s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.463s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/launch
+[5.466s] creating /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/config
+[5.468s] copying config/myarm_300.rviz -> /home/amira/mycobot_ros2/install/myarm_300/share/myarm_300/config
+[5.489s] running install_egg_info
+[5.593s] Copying ../../../build/myarm_300/myarm_300.egg-info to /home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages/myarm_300-0.0.0-py3.12.egg-info
+[5.606s] running install_scripts
+[6.198s] Installing follow_display script to /home/amira/mycobot_ros2/install/myarm_300/lib/myarm_300
+[6.205s] Installing simple_gui script to /home/amira/mycobot_ros2/install/myarm_300/lib/myarm_300
+[6.207s] Installing slider_control script to /home/amira/mycobot_ros2/install/myarm_300/lib/myarm_300
+[6.208s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/myarm_300/lib/myarm_300
+[6.208s] writing list of installed files to '/home/amira/mycobot_ros2/build/myarm_300/install.log'
+[6.355s] Invoked command in '/home/amira/mycobot_ros2/src/myArm/myarm_300' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/myarm_300/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/myarm_300/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/myarm_300 build --build-base /home/amira/mycobot_ros2/build/myarm_300/build install --record /home/amira/mycobot_ros2/build/myarm_300/install.log --single-version-externally-managed install_data

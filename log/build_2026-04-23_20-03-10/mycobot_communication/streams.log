@@ -1,0 +1,60 @@
+[4.543s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_communication': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mycobot_communication build --build-base /home/amira/mycobot_ros2/build/mycobot_communication/build install --record /home/amira/mycobot_ros2/build/mycobot_communication/install.log --single-version-externally-managed install_data
+[5.341s] running egg_info
+[5.342s] creating ../../build/mycobot_communication/mycobot_communication.egg-info
+[5.359s] writing ../../build/mycobot_communication/mycobot_communication.egg-info/PKG-INFO
+[5.359s] writing dependency_links to ../../build/mycobot_communication/mycobot_communication.egg-info/dependency_links.txt
+[5.359s] writing entry points to ../../build/mycobot_communication/mycobot_communication.egg-info/entry_points.txt
+[5.359s] writing requirements to ../../build/mycobot_communication/mycobot_communication.egg-info/requires.txt
+[5.359s] writing top-level names to ../../build/mycobot_communication/mycobot_communication.egg-info/top_level.txt
+[5.359s] writing manifest file '../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[5.504s] reading manifest file '../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[5.522s] adding license file 'LICENSE'
+[5.522s] writing manifest file '../../build/mycobot_communication/mycobot_communication.egg-info/SOURCES.txt'
+[5.522s] running build
+[5.523s] running build_py
+[5.523s] creating /home/amira/mycobot_ros2/build/mycobot_communication/build
+[5.523s] creating /home/amira/mycobot_ros2/build/mycobot_communication/build/lib
+[5.523s] creating /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.523s] copying mycobot_communication/mycobot_services.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.523s] copying mycobot_communication/mycobot_topics_seeed.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.524s] copying mycobot_communication/mycobot_topics_jsnn.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.526s] copying mycobot_communication/mycobot_topics.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.530s] copying mycobot_communication/mycobot_topics_pi.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.530s] copying mycobot_communication/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication
+[5.531s] running install
+[5.550s] running install_lib
+[5.616s] creating /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.616s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/mycobot_services.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.628s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_seeed.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.631s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_jsnn.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.631s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.633s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/mycobot_topics_pi.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.633s] copying /home/amira/mycobot_ros2/build/mycobot_communication/build/lib/mycobot_communication/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication
+[5.637s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/mycobot_services.py to mycobot_services.cpython-312.pyc
+[5.643s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/mycobot_topics_seeed.py to mycobot_topics_seeed.cpython-312.pyc
+[5.651s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/mycobot_topics_jsnn.py to mycobot_topics_jsnn.cpython-312.pyc
+[5.661s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/mycobot_topics.py to mycobot_topics.cpython-312.pyc
+[5.665s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/mycobot_topics_pi.py to mycobot_topics_pi.cpython-312.pyc
+[5.672s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication/__init__.py to __init__.cpython-312.pyc
+[5.672s] running install_data
+[5.673s] creating /home/amira/mycobot_ros2/install/mycobot_communication/share/ament_index
+[5.674s] creating /home/amira/mycobot_ros2/install/mycobot_communication/share/ament_index/resource_index
+[5.674s] creating /home/amira/mycobot_ros2/install/mycobot_communication/share/ament_index/resource_index/packages
+[5.675s] copying resource/mycobot_communication -> /home/amira/mycobot_ros2/install/mycobot_communication/share/ament_index/resource_index/packages
+[5.676s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication
+[5.678s] creating /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.679s] copying launch/communication_topic.launch.py -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.688s] copying launch/communication_seeed.launch.py -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.700s] copying launch/communication_topic_pi.launch.py -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.710s] copying launch/communication_service.launch.py -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.714s] copying launch/communication_jsnn.launch.py -> /home/amira/mycobot_ros2/install/mycobot_communication/share/mycobot_communication/launch
+[5.714s] running install_egg_info
+[5.801s] Copying ../../build/mycobot_communication/mycobot_communication.egg-info to /home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages/mycobot_communication-0.0.0-py3.12.egg-info
+[5.815s] running install_scripts
+[6.644s] Installing mycobot_services script to /home/amira/mycobot_ros2/install/mycobot_communication/lib/mycobot_communication
+[6.645s] Installing mycobot_topics script to /home/amira/mycobot_ros2/install/mycobot_communication/lib/mycobot_communication
+[6.647s] Installing mycobot_topics_jsnn script to /home/amira/mycobot_ros2/install/mycobot_communication/lib/mycobot_communication
+[6.657s] Installing mycobot_topics_pi script to /home/amira/mycobot_ros2/install/mycobot_communication/lib/mycobot_communication
+[6.671s] Installing mycobot_topics_seeed script to /home/amira/mycobot_ros2/install/mycobot_communication/lib/mycobot_communication
+[6.672s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_communication/install.log'
+[6.862s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_communication' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mycobot_communication build --build-base /home/amira/mycobot_ros2/build/mycobot_communication/build install --record /home/amira/mycobot_ros2/build/mycobot_communication/install.log --single-version-externally-managed install_data

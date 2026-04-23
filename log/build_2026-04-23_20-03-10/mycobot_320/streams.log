@@ -1,0 +1,83 @@
+[3.121s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_320/mycobot_320': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_320/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_320 build --build-base /home/amira/mycobot_ros2/build/mycobot_320/build install --record /home/amira/mycobot_ros2/build/mycobot_320/install.log --single-version-externally-managed install_data
+[4.086s] running egg_info
+[4.087s] creating ../../../build/mycobot_320/mycobot_320.egg-info
+[4.189s] writing ../../../build/mycobot_320/mycobot_320.egg-info/PKG-INFO
+[4.190s] writing dependency_links to ../../../build/mycobot_320/mycobot_320.egg-info/dependency_links.txt
+[4.191s] writing entry points to ../../../build/mycobot_320/mycobot_320.egg-info/entry_points.txt
+[4.192s] writing requirements to ../../../build/mycobot_320/mycobot_320.egg-info/requires.txt
+[4.192s] writing top-level names to ../../../build/mycobot_320/mycobot_320.egg-info/top_level.txt
+[4.193s] writing manifest file '../../../build/mycobot_320/mycobot_320.egg-info/SOURCES.txt'
+[4.386s] reading manifest file '../../../build/mycobot_320/mycobot_320.egg-info/SOURCES.txt'
+[4.386s] adding license file 'LICENSE'
+[4.389s] writing manifest file '../../../build/mycobot_320/mycobot_320.egg-info/SOURCES.txt'
+[4.389s] running build
+[4.389s] running build_py
+[4.390s] creating /home/amira/mycobot_ros2/build/mycobot_320/build
+[4.404s] creating /home/amira/mycobot_ros2/build/mycobot_320/build/lib
+[4.404s] creating /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.404s] copying mycobot_320/slider_control.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.405s] copying mycobot_320/slider_control_force_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.405s] copying mycobot_320/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.405s] copying mycobot_320/follow_display.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.405s] copying mycobot_320/listen_real.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.407s] copying mycobot_320/listen_real_service.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.415s] copying mycobot_320/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.415s] copying mycobot_320/simple_gui.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.442s] copying mycobot_320/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.443s] copying mycobot_320/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320
+[4.443s] running install
+[4.509s] running install_lib
+[4.610s] creating /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.610s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/slider_control.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.611s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/slider_control_force_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.611s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.611s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/follow_display.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.615s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/listen_real.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.619s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/listen_real_service.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.619s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.619s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/simple_gui.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.619s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.626s] copying /home/amira/mycobot_ros2/build/mycobot_320/build/lib/mycobot_320/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320
+[4.626s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/slider_control.py to slider_control.cpython-312.pyc
+[4.627s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/slider_control_force_gripper.py to slider_control_force_gripper.cpython-312.pyc
+[4.627s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[4.627s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/follow_display.py to follow_display.cpython-312.pyc
+[4.647s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/listen_real.py to listen_real.cpython-312.pyc
+[4.648s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/listen_real_service.py to listen_real_service.cpython-312.pyc
+[4.648s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[4.655s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/simple_gui.py to simple_gui.cpython-312.pyc
+[4.675s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[4.725s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320/__init__.py to __init__.cpython-312.pyc
+[4.727s] running install_data
+[4.733s] creating /home/amira/mycobot_ros2/install/mycobot_320/share/ament_index
+[4.734s] creating /home/amira/mycobot_ros2/install/mycobot_320/share/ament_index/resource_index
+[4.734s] creating /home/amira/mycobot_ros2/install/mycobot_320/share/ament_index/resource_index/packages
+[4.734s] copying resource/mycobot_320 -> /home/amira/mycobot_ros2/install/mycobot_320/share/ament_index/resource_index/packages
+[4.734s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320
+[4.734s] creating /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.734s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/slider_control_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/test_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/test_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/launch
+[4.735s] creating /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/config
+[4.735s] copying config/mycobot_pro_320.rviz -> /home/amira/mycobot_ros2/install/mycobot_320/share/mycobot_320/config
+[4.735s] running install_egg_info
+[4.808s] Copying ../../../build/mycobot_320/mycobot_320.egg-info to /home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages/mycobot_320-0.0.0-py3.12.egg-info
+[4.823s] running install_scripts
+[5.351s] Installing camera_display script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.355s] Installing follow_display script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.370s] Installing listen_real script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.370s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.370s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.371s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.371s] Installing slider_control script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.371s] Installing slider_control_adaptive_gripper script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.376s] Installing slider_control_force_gripper script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.377s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mycobot_320/lib/mycobot_320
+[5.377s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_320/install.log'
+[5.503s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_320/mycobot_320' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_320/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_320/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_320 build --build-base /home/amira/mycobot_ros2/build/mycobot_320/build install --record /home/amira/mycobot_ros2/build/mycobot_320/install.log --single-version-externally-managed install_data

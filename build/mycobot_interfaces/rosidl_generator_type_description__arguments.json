@@ -1,0 +1,23 @@
+{
+  "package_name": "mycobot_interfaces",
+  "output_dir": "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_generator_type_description/mycobot_interfaces",
+  "idl_tuples": [
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotAngles.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotCoords.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetAngles.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotSetCoords.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotGripperStatus.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:msg/MycobotPumpStatus.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetAngles.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetAngles.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GetCoords.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/SetCoords.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/GripperStatus.idl",
+    "/home/amira/mycobot_ros2/build/mycobot_interfaces/rosidl_adapter/mycobot_interfaces:srv/PumpStatus.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

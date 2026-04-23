@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-104d46e7b31a52d2b027.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "mecharm_interfaces__py",
+					"jsonFile" : "directory-mecharm_interfaces__py-740ef4df61981adc9832.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/amira/mycobot_ros2/build/mecharm_interfaces/mecharm_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "mecharm_interfaces__rs",
+					"jsonFile" : "directory-mecharm_interfaces__rs-d3fa95dc52825c3373fc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/amira/mycobot_ros2/build/mecharm_interfaces/mecharm_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "mecharm_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mecharm_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mecharm_interfaces_egg-7521c1110118bcb00b26.json",
+					"name" : "ament_cmake_python_build_mecharm_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mecharm_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mecharm_interfaces-30b047e4a316692e6d87.json",
+					"name" : "ament_cmake_python_copy_mecharm_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces-8c545429abc3b2aa8d2e.json",
+					"name" : "mecharm_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__cpp-73f2860a99e9dcbf75fa.json",
+					"name" : "mecharm_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mecharm_interfaces__py::@69b8d623444d25dc8fef",
+					"jsonFile" : "target-mecharm_interfaces__py-17469cfcf98e1dba6075.json",
+					"name" : "mecharm_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_generator_c-56463d8718449ee52685.json",
+					"name" : "mecharm_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_generator_py-64a5dc02d38b261af652.json",
+					"name" : "mecharm_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_generator_type_description-4a9276d73d302a1b60ef.json",
+					"name" : "mecharm_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_c-ad089e1ddd664755acf0.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_cpp-b94ce5519767b8a397f4.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_fastrtps_c-7e6ea593ff2e01472f70.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_fastrtps_cpp-7abc45069a4933f3f57a.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_introspection_c-1824460e450f034f57ed.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces__rosidl_typesupport_introspection_cpp-e26270326751e5525c07.json",
+					"name" : "mecharm_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mecharm_interfaces__rs::@5e287b09f268033e2f62",
+					"jsonFile" : "target-mecharm_interfaces__rs-c37702ed879f601db85a.json",
+					"name" : "mecharm_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces_s__rosidl_typesupport_c-197a1b396aa2ec832de9.json",
+					"name" : "mecharm_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces_s__rosidl_typesupport_fastrtps_c-6e16c4efd50303f391fc.json",
+					"name" : "mecharm_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces_s__rosidl_typesupport_introspection_c-9e9e4a05c236d0130212.json",
+					"name" : "mecharm_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mecharm_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mecharm_interfaces_uninstall-05d74782c6314e5b9fc5.json",
+					"name" : "mecharm_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2bc2e93e46ebe93ca046.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amira/mycobot_ros2/build/mecharm_interfaces",
+		"source" : "/home/amira/mycobot_ros2/src/mecharm/mecharm_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

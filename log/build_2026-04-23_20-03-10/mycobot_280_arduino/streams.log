@@ -1,0 +1,86 @@
+[3.423s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280_arduino': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280_arduino build --build-base /home/amira/mycobot_ros2/build/mycobot_280_arduino/build install --record /home/amira/mycobot_ros2/build/mycobot_280_arduino/install.log --single-version-externally-managed install_data
+[4.522s] running egg_info
+[4.522s] creating ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info
+[4.594s] writing ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/PKG-INFO
+[4.595s] writing dependency_links to ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/dependency_links.txt
+[4.596s] writing entry points to ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/entry_points.txt
+[4.596s] writing requirements to ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/requires.txt
+[4.616s] writing top-level names to ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/top_level.txt
+[4.617s] writing manifest file '../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.774s] reading manifest file '../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.774s] adding license file 'LICENSE'
+[4.777s] writing manifest file '../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info/SOURCES.txt'
+[4.779s] running build
+[4.780s] running build_py
+[4.781s] creating /home/amira/mycobot_ros2/build/mycobot_280_arduino/build
+[4.782s] creating /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib
+[4.783s] creating /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.783s] copying mycobot_280_arduino/slider_control.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.786s] copying mycobot_280_arduino/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.789s] copying mycobot_280_arduino/camera_display.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.793s] copying mycobot_280_arduino/follow_display.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.794s] copying mycobot_280_arduino/opencv_camera.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.797s] copying mycobot_280_arduino/listen_real.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.800s] copying mycobot_280_arduino/listen_real_service.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.809s] copying mycobot_280_arduino/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.809s] copying mycobot_280_arduino/simple_gui.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.810s] copying mycobot_280_arduino/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.820s] copying mycobot_280_arduino/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino
+[4.821s] running install
+[4.832s] running install_lib
+[4.890s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.892s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/slider_control.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.893s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.902s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/camera_display.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.902s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/follow_display.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.903s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/opencv_camera.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.904s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.905s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/listen_real_service.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.905s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.906s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/simple_gui.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.906s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.907s] copying /home/amira/mycobot_ros2/build/mycobot_280_arduino/build/lib/mycobot_280_arduino/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino
+[4.908s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/slider_control.py to slider_control.cpython-312.pyc
+[4.908s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[4.908s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/camera_display.py to camera_display.cpython-312.pyc
+[4.912s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/follow_display.py to follow_display.cpython-312.pyc
+[4.912s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/opencv_camera.py to opencv_camera.cpython-312.pyc
+[4.915s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real.py to listen_real.cpython-312.pyc
+[4.925s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/listen_real_service.py to listen_real_service.cpython-312.pyc
+[4.931s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[4.938s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/simple_gui.py to simple_gui.cpython-312.pyc
+[4.963s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[4.965s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino/__init__.py to __init__.cpython-312.pyc
+[4.965s] running install_data
+[4.975s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/ament_index
+[4.980s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/ament_index/resource_index
+[4.980s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/ament_index/resource_index/packages
+[4.980s] copying resource/mycobot_280_arduino -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/ament_index/resource_index/packages
+[4.980s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino
+[4.980s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.980s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.980s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.982s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.988s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.988s] copying launch/test_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[4.992s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.000s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/launch
+[5.006s] creating /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/config
+[5.007s] copying config/mycobot_ar.rviz -> /home/amira/mycobot_ros2/install/mycobot_280_arduino/share/mycobot_280_arduino/config
+[5.010s] running install_egg_info
+[5.137s] Copying ../../../build/mycobot_280_arduino/mycobot_280_arduino.egg-info to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages/mycobot_280_arduino-0.0.0-py3.12.egg-info
+[5.160s] running install_scripts
+[5.782s] Installing camera_display script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.784s] Installing detect_marker script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.786s] Installing follow_display script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.793s] Installing following_marker script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.794s] Installing listen_real script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.794s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.794s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.794s] Installing opencv_camera script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.794s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.795s] Installing slider_control script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.795s] Installing slider_control_adaptive_gripper script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.795s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/mycobot_280_arduino
+[5.826s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_280_arduino/install.log'
+[6.506s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280_arduino' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280_arduino/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280_arduino/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280_arduino build --build-base /home/amira/mycobot_ros2/build/mycobot_280_arduino/build install --record /home/amira/mycobot_ros2/build/mycobot_280_arduino/install.log --single-version-externally-managed install_data

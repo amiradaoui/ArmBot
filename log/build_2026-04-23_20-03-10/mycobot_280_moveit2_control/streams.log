@@ -1,0 +1,51 @@
+[3.602s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280_moveit2_control': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280_moveit2_control build --build-base /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build install --record /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data
+[4.481s] running egg_info
+[4.500s] creating ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info
+[4.655s] writing ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/PKG-INFO
+[4.655s] writing dependency_links to ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/dependency_links.txt
+[4.658s] writing entry points to ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/entry_points.txt
+[4.659s] writing requirements to ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/requires.txt
+[4.659s] writing top-level names to ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/top_level.txt
+[4.659s] writing manifest file '../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[4.848s] reading manifest file '../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[4.848s] adding license file 'LICENSE'
+[4.851s] writing manifest file '../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info/SOURCES.txt'
+[4.853s] running build
+[4.853s] running build_py
+[4.853s] creating /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build
+[4.853s] creating /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib
+[4.853s] creating /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[4.853s] copying mycobot_280_moveit2_control/sync_plan_arduino.py -> /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[4.856s] copying mycobot_280_moveit2_control/sync_plan.py -> /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[4.863s] copying mycobot_280_moveit2_control/test.py -> /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[5.290s] copying mycobot_280_moveit2_control/sync_plan_rdkx5.py -> /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[5.291s] copying mycobot_280_moveit2_control/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control
+[5.292s] running install
+[5.292s] running install_lib
+[5.292s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan_arduino.py -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan.py -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/test.py -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/sync_plan_rdkx5.py -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build/lib/mycobot_280_moveit2_control/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control
+[5.292s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan_arduino.py to sync_plan_arduino.cpython-312.pyc
+[5.292s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan.py to sync_plan.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/test.py to test.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/sync_plan_rdkx5.py to sync_plan_rdkx5.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control/__init__.py to __init__.cpython-312.pyc
+[5.293s] running install_data
+[5.293s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/ament_index
+[5.293s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/ament_index/resource_index
+[5.293s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/ament_index/resource_index/packages
+[5.293s] copying resource/mycobot_280_moveit2_control -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/ament_index/resource_index/packages
+[5.293s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control
+[5.293s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control/launch
+[5.294s] creating /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/share/mycobot_280_moveit2_control/config
+[5.294s] running install_egg_info
+[5.294s] Copying ../../../build/mycobot_280_moveit2_control/mycobot_280_moveit2_control.egg-info to /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages/mycobot_280_moveit2_control-0.0.0-py3.12.egg-info
+[5.297s] running install_scripts
+[5.358s] Installing sync_plan script to /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[5.359s] Installing sync_plan_arduino script to /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[5.359s] Installing sync_plan_rdkx5 script to /home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/mycobot_280_moveit2_control
+[5.360s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/install.log'
+[5.512s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280_moveit2_control' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280_moveit2_control/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280_moveit2_control build --build-base /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/build install --record /home/amira/mycobot_ros2/build/mycobot_280_moveit2_control/install.log --single-version-externally-managed install_data

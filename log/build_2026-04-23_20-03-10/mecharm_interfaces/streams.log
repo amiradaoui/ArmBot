@@ -1,0 +1,638 @@
+[0.116s] Invoking command in '/home/amira/mycobot_ros2/build/mecharm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amira/mycobot_ros2/src/mecharm/mecharm_interfaces -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mecharm_interfaces
+[0.643s] -- The C compiler identification is GNU 13.3.0
+[0.907s] -- The CXX compiler identification is GNU 13.3.0
+[1.073s] -- Detecting C compiler ABI info
+[1.924s] -- Detecting C compiler ABI info - done
+[1.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.975s] -- Detecting C compile features
+[1.982s] -- Detecting C compile features - done
+[2.082s] -- Detecting CXX compiler ABI info
+[2.521s] -- Detecting CXX compiler ABI info - done
+[2.561s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.562s] -- Detecting CXX compile features
+[2.571s] -- Detecting CXX compile features - done
+[2.601s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.375s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.119s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[4.148s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.574s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[4.601s] -- Found rclpy: 7.1.11 (/opt/ros/jazzy/share/rclpy/cmake)
+[4.612s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[8.464s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[10.142s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.663s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[13.287s] -- Found PythonExtra: /usr/bin/python3  
+[15.254s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[15.646s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[15.665s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.020s] -- Added test 'copyright' to check source files copyright and LICENSE
+[16.070s] -- Added test 'lint_cmake' to check CMake code style
+[16.104s] -- Added test 'xmllint' to check XML markup files
+[16.136s] -- Configuring done (15.9s)
+[16.490s] -- Generating done (0.3s)
+[16.595s] -- Build files have been written to: /home/amira/mycobot_ros2/build/mecharm_interfaces
+[16.655s] Invoked command in '/home/amira/mycobot_ros2/build/mecharm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/amira/mycobot_ros2/src/mecharm/mecharm_interfaces -DCMAKE_INSTALL_PREFIX=/home/amira/mycobot_ros2/install/mecharm_interfaces
+[16.658s] Invoking command in '/home/amira/mycobot_ros2/build/mecharm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amira/mycobot_ros2/build/mecharm_interfaces -- -j3 -l3
+[17.024s] [  0%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[19.130s] [  0%] Built target mecharm_interfaces__rs
+[19.247s] [  0%] Built target ament_cmake_python_copy_mecharm_interfaces
+[19.414s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[20.756s] [  1%] Built target mecharm_interfaces__rosidl_generator_type_description
+[21.781s] running egg_info
+[21.784s] creating mecharm_interfaces.egg-info
+[21.897s] writing mecharm_interfaces.egg-info/PKG-INFO
+[21.899s] writing dependency_links to mecharm_interfaces.egg-info/dependency_links.txt
+[21.900s] writing top-level names to mecharm_interfaces.egg-info/top_level.txt
+[21.902s] writing manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[22.244s] reading manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[22.246s] writing manifest file 'mecharm_interfaces.egg-info/SOURCES.txt'
+[22.474s] [  1%] Built target ament_cmake_python_build_mecharm_interfaces_egg
+[22.626s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[27.135s] [  1%] Built target mecharm_interfaces__cpp
+[27.183s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[33.066s] [  2%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_angles__description.c.o[0m
+[33.299s] [  3%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_angles__type_support.c.o[0m
+[33.397s] [  3%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_coords__description.c.o[0m
+[33.606s] [  4%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_coords__functions.c.o[0m
+[33.831s] [  5%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_coords__type_support.c.o[0m
+[33.935s] [  5%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__description.c.o[0m
+[34.054s] [  6%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.c.o[0m
+[34.201s] [  7%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.c.o[0m
+[34.410s] [  7%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__description.c.o[0m
+[34.586s] [  8%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.c.o[0m
+[34.853s] [  9%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.c.o[0m
+[35.040s] [ 10%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_gripper_status__description.c.o[0m
+[35.108s] [ 10%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_gripper_status__functions.c.o[0m
+[35.298s] [ 11%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.c.o[0m
+[35.520s] [ 12%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_pump_status__description.c.o[0m
+[35.824s] [ 12%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_pump_status__functions.c.o[0m
+[36.095s] [ 13%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.c.o[0m
+[36.327s] [ 14%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_angles__description.c.o[0m
+[36.580s] [ 14%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_angles__functions.c.o[0m
+[37.031s] [ 15%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_angles__type_support.c.o[0m
+[37.152s] [ 16%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_angles__description.c.o[0m
+[37.426s] [ 16%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_angles__functions.c.o[0m
+[37.621s] [ 17%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_angles__type_support.c.o[0m
+[37.809s] [ 18%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_coords__description.c.o[0m
+[38.208s] [ 19%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_coords__functions.c.o[0m
+[38.484s] [ 19%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/get_coords__type_support.c.o[0m
+[38.675s] [ 20%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_coords__description.c.o[0m
+[38.956s] [ 21%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_coords__functions.c.o[0m
+[39.117s] [ 21%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[39.334s] [ 22%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/gripper_status__description.c.o[0m
+[39.546s] [ 23%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/gripper_status__functions.c.o[0m
+[39.715s] [ 23%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/gripper_status__type_support.c.o[0m
+[39.995s] [ 24%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/pump_status__description.c.o[0m
+[40.287s] [ 25%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/pump_status__functions.c.o[0m
+[40.644s] [ 25%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/srv/detail/pump_status__type_support.c.o[0m
+[40.902s] [ 26%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/mecharm_interfaces/msg/detail/mecharm_angles__functions.c.o[0m
+[41.158s] [ 27%] [32m[1mLinking C shared library libmecharm_interfaces__rosidl_generator_c.so[0m
+[41.848s] [ 27%] Built target mecharm_interfaces__rosidl_generator_c
+[41.910s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[45.798s] [ 28%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_angles__type_support_c.cpp.o[0m
+[47.204s] [ 29%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_coords__type_support_c.cpp.o[0m
+[48.931s] [ 30%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support_c.cpp.o[0m
+[50.238s] [ 31%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support_c.cpp.o[0m
+[52.027s] [ 31%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support_c.cpp.o[0m
+[53.659s] [ 32%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support_c.cpp.o[0m
+[56.366s] [ 33%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/get_angles__type_support_c.cpp.o[0m
+[57.910s] [ 33%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/set_angles__type_support_c.cpp.o[0m
+[59.313s] [ 34%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/get_coords__type_support_c.cpp.o[0m
+[60.857s] [ 35%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/set_coords__type_support_c.cpp.o[0m
+[62.216s] [ 35%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/gripper_status__type_support_c.cpp.o[0m
+[63.481s] [ 36%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/mecharm_interfaces/srv/detail/pump_status__type_support_c.cpp.o[0m
+[64.995s] [ 37%] [32m[1mLinking CXX shared library libmecharm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[65.188s] [ 37%] Built target mecharm_interfaces__rosidl_typesupport_fastrtps_c
+[65.254s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[67.247s] [ 38%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_angles__type_support.cpp.o[0m
+[67.338s] [ 39%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_coords__type_support.cpp.o[0m
+[67.467s] [ 40%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_set_angles__type_support.cpp.o[0m
+[67.604s] [ 40%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_set_coords__type_support.cpp.o[0m
+[67.702s] [ 41%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_gripper_status__type_support.cpp.o[0m
+[67.837s] [ 42%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/msg/mecharm_pump_status__type_support.cpp.o[0m
+[67.950s] [ 42%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/get_angles__type_support.cpp.o[0m
+[68.049s] [ 43%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/set_angles__type_support.cpp.o[0m
+[68.150s] [ 44%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/get_coords__type_support.cpp.o[0m
+[68.371s] [ 44%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/set_coords__type_support.cpp.o[0m
+[68.659s] [ 45%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[68.930s] [ 46%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/mecharm_interfaces/srv/pump_status__type_support.cpp.o[0m
+[69.104s] [ 46%] [32m[1mLinking CXX shared library libmecharm_interfaces__rosidl_typesupport_c.so[0m
+[69.318s] [ 46%] Built target mecharm_interfaces__rosidl_typesupport_c
+[69.363s] [ 46%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[72.887s] [ 47%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_angles__type_support.cpp.o[0m
+[73.892s] [ 48%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_coords__type_support.cpp.o[0m
+[75.413s] [ 48%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_set_angles__type_support.cpp.o[0m
+[77.090s] [ 49%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_set_coords__type_support.cpp.o[0m
+[78.202s] [ 50%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_gripper_status__type_support.cpp.o[0m
+[79.460s] [ 51%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/msg/detail/dds_fastrtps/mecharm_pump_status__type_support.cpp.o[0m
+[80.676s] [ 51%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/get_angles__type_support.cpp.o[0m
+[82.669s] [ 52%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/set_angles__type_support.cpp.o[0m
+[84.463s] [ 53%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/get_coords__type_support.cpp.o[0m
+[86.298s] [ 53%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/set_coords__type_support.cpp.o[0m
+[88.200s] [ 54%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/gripper_status__type_support.cpp.o[0m
+[89.902s] [ 55%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/mecharm_interfaces/srv/detail/dds_fastrtps/pump_status__type_support.cpp.o[0m
+[91.717s] [ 55%] [32m[1mLinking CXX shared library libmecharm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[92.333s] [ 55%] Built target mecharm_interfaces__rosidl_typesupport_fastrtps_cpp
+[92.457s] [ 56%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[95.849s] [ 56%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_angles__type_support.cpp.o[0m
+[96.864s] [ 57%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_coords__type_support.cpp.o[0m
+[97.986s] [ 58%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.cpp.o[0m
+[99.232s] [ 58%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.cpp.o[0m
+[99.860s] [ 59%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.cpp.o[0m
+[100.878s] [ 60%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.cpp.o[0m
+[101.645s] [ 61%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/get_angles__type_support.cpp.o[0m
+[103.194s] [ 61%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/set_angles__type_support.cpp.o[0m
+[104.497s] [ 62%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/get_coords__type_support.cpp.o[0m
+[105.663s] [ 63%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/set_coords__type_support.cpp.o[0m
+[106.953s] [ 63%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/gripper_status__type_support.cpp.o[0m
+[108.124s] [ 64%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/mecharm_interfaces/srv/detail/pump_status__type_support.cpp.o[0m
+[109.715s] [ 65%] [32m[1mLinking CXX shared library libmecharm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[110.010s] [ 65%] Built target mecharm_interfaces__rosidl_typesupport_introspection_cpp
+[110.588s] [ 66%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[112.989s] [ 67%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_angles__type_support.cpp.o[0m
+[114.005s] [ 67%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_coords__type_support.cpp.o[0m
+[115.501s] [ 68%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_set_angles__type_support.cpp.o[0m
+[116.874s] [ 69%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_set_coords__type_support.cpp.o[0m
+[117.451s] [ 70%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_gripper_status__type_support.cpp.o[0m
+[118.208s] [ 70%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/msg/mecharm_pump_status__type_support.cpp.o[0m
+[118.777s] [ 71%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/get_angles__type_support.cpp.o[0m
+[119.702s] [ 72%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/set_angles__type_support.cpp.o[0m
+[121.032s] [ 72%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/get_coords__type_support.cpp.o[0m
+[122.389s] [ 73%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/set_coords__type_support.cpp.o[0m
+[123.753s] [ 74%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/gripper_status__type_support.cpp.o[0m
+[125.018s] [ 74%] [32mBuilding CXX object CMakeFiles/mecharm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/mecharm_interfaces/srv/pump_status__type_support.cpp.o[0m
+[126.765s] [ 75%] [32m[1mLinking CXX shared library libmecharm_interfaces__rosidl_typesupport_cpp.so[0m
+[127.096s] [ 75%] Built target mecharm_interfaces__rosidl_typesupport_cpp
+[127.150s] [ 76%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[130.988s] [ 77%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_angles__type_support.c.o[0m
+[131.327s] [ 78%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.c.o[0m
+[131.467s] [ 79%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.c.o[0m
+[131.761s] [ 80%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.c.o[0m
+[131.938s] [ 80%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.c.o[0m
+[132.445s] [ 81%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/get_angles__type_support.c.o[0m
+[132.535s] [ 82%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/set_angles__type_support.c.o[0m
+[132.780s] [ 82%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/get_coords__type_support.c.o[0m
+[133.073s] [ 83%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/set_coords__type_support.c.o[0m
+[133.400s] [ 84%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/gripper_status__type_support.c.o[0m
+[133.673s] [ 84%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/srv/detail/pump_status__type_support.c.o[0m
+[133.863s] [ 84%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/mecharm_interfaces/msg/detail/mecharm_coords__type_support.c.o[0m
+[134.080s] [ 85%] [32m[1mLinking C shared library libmecharm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[134.280s] [ 85%] Built target mecharm_interfaces__rosidl_typesupport_introspection_c
+[134.435s] [ 85%] Built target mecharm_interfaces
+[134.631s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[140.813s] [ 86%] Built target mecharm_interfaces__py
+[141.045s] [ 87%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_angles_s.c.o[0m
+[141.582s] [ 88%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_set_angles_s.c.o[0m
+[142.061s] [ 89%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_set_coords_s.c.o[0m
+[142.436s] [ 90%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_gripper_status_s.c.o[0m
+[142.839s] [ 90%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_pump_status_s.c.o[0m
+[143.228s] [ 91%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_get_angles_s.c.o[0m
+[143.758s] [ 92%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_set_angles_s.c.o[0m
+[144.543s] [ 92%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_get_coords_s.c.o[0m
+[145.117s] [ 93%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_set_coords_s.c.o[0m
+[145.653s] [ 94%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_gripper_status_s.c.o[0m
+[146.269s] [ 94%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/srv/_pump_status_s.c.o[0m
+[146.743s] [ 94%] [32mBuilding C object CMakeFiles/mecharm_interfaces__rosidl_generator_py.dir/rosidl_generator_py/mecharm_interfaces/msg/_mecharm_coords_s.c.o[0m
+[147.166s] [ 95%] [32m[1mLinking C shared library libmecharm_interfaces__rosidl_generator_py.so[0m
+[147.447s] [ 95%] Built target mecharm_interfaces__rosidl_generator_py
+[147.566s] [ 95%] [32mBuilding C object CMakeFiles/mecharm_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[148.172s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[148.324s] [ 96%] Built target mecharm_interfaces_s__rosidl_typesupport_fastrtps_c
+[148.396s] [ 97%] [32mBuilding C object CMakeFiles/mecharm_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[148.856s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_c.so[0m
+[148.988s] [ 98%] Built target mecharm_interfaces_s__rosidl_typesupport_c
+[149.133s] [ 99%] [32mBuilding C object CMakeFiles/mecharm_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[149.750s] [100%] [32m[1mLinking C shared module rosidl_generator_py/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[149.871s] [100%] Built target mecharm_interfaces_s__rosidl_typesupport_introspection_c
+[149.934s] Invoked command in '/home/amira/mycobot_ros2/build/mecharm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/amira/mycobot_ros2/build/mecharm_interfaces -- -j3 -l3
+[149.956s] Invoking command in '/home/amira/mycobot_ros2/build/mecharm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amira/mycobot_ros2/build/mecharm_interfaces
+[149.966s] -- Install configuration: ""
+[149.968s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/ament_index/resource_index/rosidl_interfaces/mecharm_interfaces
+[149.969s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmAngles.json
+[149.970s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmCoords.json
+[149.972s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetAngles.json
+[149.974s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetCoords.json
+[149.976s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmGripperStatus.json
+[149.981s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmPumpStatus.json
+[149.994s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetAngles.json
+[149.995s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetAngles.json
+[149.996s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetCoords.json
+[149.997s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetCoords.json
+[149.999s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GripperStatus.json
+[150.000s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/PumpStatus.json
+[150.002s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.003s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.009s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.009s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__struct.h
+[150.010s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.c
+[150.010s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__description.c
+[150.010s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.h
+[150.010s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__type_support.c
+[150.011s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__functions.c
+[150.011s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__functions.c
+[150.027s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__description.c
+[150.028s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.h
+[150.031s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__description.c
+[150.031s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.h
+[150.031s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__type_support.h
+[150.032s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__functions.h
+[150.032s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__functions.h
+[150.032s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__struct.h
+[150.032s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__functions.c
+[150.032s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.c
+[150.033s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__type_support.h
+[150.039s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__description.c
+[150.041s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.h
+[150.042s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__struct.h
+[150.042s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__struct.h
+[150.057s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__struct.h
+[150.057s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__struct.h
+[150.057s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__functions.c
+[150.058s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.c
+[150.058s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__description.c
+[150.064s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.h
+[150.064s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__functions.h
+[150.064s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__functions.c
+[150.064s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__description.c
+[150.064s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.h
+[150.065s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__functions.h
+[150.065s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__type_support.c
+[150.065s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.c
+[150.065s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__functions.c
+[150.065s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_set_angles.h
+[150.066s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[150.066s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_pump_status.h
+[150.066s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_set_coords.h
+[150.066s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_angles.h
+[150.066s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_gripper_status.h
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_coords.h
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__type_support.h
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__description.c
+[150.067s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__struct.h
+[150.068s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__type_support.c
+[150.068s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__functions.c
+[150.068s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__functions.h
+[150.068s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__functions.h
+[150.068s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__struct.h
+[150.069s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__type_support.c
+[150.069s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__functions.h
+[150.069s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__functions.h
+[150.069s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__description.c
+[150.069s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__description.c
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__functions.h
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__description.c
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__functions.c
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__struct.h
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__functions.c
+[150.070s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__type_support.c
+[150.071s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__functions.h
+[150.071s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__type_support.h
+[150.071s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__description.c
+[150.071s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__type_support.h
+[150.071s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__description.c
+[150.072s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__type_support.h
+[150.072s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__type_support.h
+[150.080s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__type_support.c
+[150.082s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__type_support.c
+[150.091s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__type_support.h
+[150.092s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__struct.h
+[150.092s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__functions.c
+[150.093s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__functions.c
+[150.093s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__functions.c
+[150.093s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__struct.h
+[150.093s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__struct.h
+[150.094s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__type_support.c
+[150.094s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/set_coords.h
+[150.094s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/pump_status.h
+[150.094s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/gripper_status.h
+[150.095s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/get_angles.h
+[150.096s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/set_angles.h
+[150.096s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/get_coords.h
+[150.097s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/library_path.sh
+[150.097s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/library_path.dsv
+[150.098s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_generator_c.so
+[150.098s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_generator_c.so" to ""
+[150.099s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.100s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.100s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.100s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__rosidl_typesupport_fastrtps_c.h
+[150.100s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__rosidl_typesupport_fastrtps_c.h
+[150.100s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__rosidl_typesupport_fastrtps_c.h
+[150.101s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__rosidl_typesupport_fastrtps_c.h
+[150.101s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__rosidl_typesupport_fastrtps_c.h
+[150.101s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__rosidl_typesupport_fastrtps_c.h
+[150.101s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[150.102s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.102s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.126s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_c.h
+[150.127s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_c.h
+[150.145s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_c.h
+[150.146s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_c.h
+[150.146s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_c.h
+[150.147s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_c.h
+[150.150s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_fastrtps_c.so
+[150.151s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[150.153s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.154s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.156s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.157s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__rosidl_typesupport_introspection_c.h
+[150.157s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.c
+[150.158s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__type_support.c
+[150.158s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__rosidl_typesupport_introspection_c.h
+[150.162s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__rosidl_typesupport_introspection_c.h
+[150.162s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.c
+[150.162s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__rosidl_typesupport_introspection_c.h
+[150.162s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.c
+[150.163s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__rosidl_typesupport_introspection_c.h
+[150.163s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__type_support.c
+[150.163s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.c
+[150.167s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__rosidl_typesupport_introspection_c.h
+[150.168s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[150.168s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.168s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.169s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__type_support.c
+[150.169s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__type_support.c
+[150.170s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_c.h
+[150.175s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_c.h
+[150.183s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__type_support.c
+[150.186s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_c.h
+[150.186s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__type_support.c
+[150.186s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__type_support.c
+[150.187s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_c.h
+[150.187s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_c.h
+[150.187s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_c.h
+[150.187s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__type_support.c
+[150.187s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_introspection_c.so
+[150.188s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[150.188s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_c.so
+[150.188s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_c.so" to ""
+[150.189s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.189s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.251s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_gripper_status.hpp
+[150.251s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[150.251s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.251s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__type_support.hpp
+[150.252s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.hpp
+[150.252s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__builder.hpp
+[150.252s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.hpp
+[150.252s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__traits.hpp
+[150.252s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__builder.hpp
+[150.253s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__builder.hpp
+[150.253s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__struct.hpp
+[150.254s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.hpp
+[150.254s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__traits.hpp
+[150.263s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__type_support.hpp
+[150.263s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__traits.hpp
+[150.263s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__struct.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__builder.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__struct.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__traits.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__builder.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__builder.hpp
+[150.264s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__struct.hpp
+[150.265s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.hpp
+[150.267s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__struct.hpp
+[150.269s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__struct.hpp
+[150.269s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__traits.hpp
+[150.272s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__traits.hpp
+[150.273s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_coords.hpp
+[150.273s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_set_angles.hpp
+[150.273s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_angles.hpp
+[150.273s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_pump_status.hpp
+[150.306s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/mecharm_set_coords.hpp
+[150.306s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.306s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.312s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__builder.hpp
+[150.312s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__builder.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__builder.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__traits.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__type_support.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__traits.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__struct.hpp
+[150.313s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__type_support.hpp
+[150.314s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__type_support.hpp
+[150.314s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__struct.hpp
+[150.314s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__traits.hpp
+[150.314s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__traits.hpp
+[150.314s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__struct.hpp
+[150.315s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__struct.hpp
+[150.315s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__type_support.hpp
+[150.315s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__struct.hpp
+[150.315s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__struct.hpp
+[150.315s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__traits.hpp
+[150.316s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__traits.hpp
+[150.316s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__builder.hpp
+[150.316s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__type_support.hpp
+[150.316s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__type_support.hpp
+[150.316s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__builder.hpp
+[150.317s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__builder.hpp
+[150.317s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/gripper_status.hpp
+[150.317s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/set_coords.hpp
+[150.317s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/set_angles.hpp
+[150.317s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/pump_status.hpp
+[150.318s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/get_coords.hpp
+[150.318s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/get_angles.hpp
+[150.318s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.318s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.319s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.319s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[150.319s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[150.319s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[150.319s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/dds_fastrtps
+[150.319s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[150.320s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[150.320s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[150.320s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[150.320s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.320s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__rosidl_typesupport_fastrtps_cpp.hpp
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__rosidl_typesupport_fastrtps_cpp.hpp
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__rosidl_typesupport_fastrtps_cpp.hpp
+[150.321s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/dds_fastrtps
+[150.322s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__rosidl_typesupport_fastrtps_cpp.hpp
+[150.322s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[150.322s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[150.322s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces
+[150.322s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg
+[150.322s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__type_support.cpp
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__rosidl_typesupport_introspection_cpp.hpp
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__rosidl_typesupport_introspection_cpp.hpp
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__type_support.cpp
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__rosidl_typesupport_introspection_cpp.hpp
+[150.323s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[150.324s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_angles__type_support.cpp
+[150.324s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_coords__type_support.cpp
+[150.324s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_gripper_status__type_support.cpp
+[150.324s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_pump_status__type_support.cpp
+[150.324s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_set_coords__rosidl_typesupport_introspection_cpp.hpp
+[150.325s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/msg/detail/mecharm_angles__rosidl_typesupport_introspection_cpp.hpp
+[150.325s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv
+[150.325s] -- Up-to-date: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail
+[150.325s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__rosidl_typesupport_introspection_cpp.hpp
+[150.325s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__type_support.cpp
+[150.326s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__rosidl_typesupport_introspection_cpp.hpp
+[150.326s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__rosidl_typesupport_introspection_cpp.hpp
+[150.326s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__rosidl_typesupport_introspection_cpp.hpp
+[150.326s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_coords__type_support.cpp
+[150.326s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_coords__type_support.cpp
+[150.327s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/set_angles__rosidl_typesupport_introspection_cpp.hpp
+[150.327s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__type_support.cpp
+[150.327s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/pump_status__rosidl_typesupport_introspection_cpp.hpp
+[150.327s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/gripper_status__type_support.cpp
+[150.327s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/include/mecharm_interfaces/mecharm_interfaces/srv/detail/get_angles__type_support.cpp
+[150.328s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_introspection_cpp.so
+[150.328s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[150.328s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_cpp.so
+[150.328s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_typesupport_cpp.so" to ""
+[150.328s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/pythonpath.sh
+[150.328s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/pythonpath.dsv
+[150.329s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces-0.0.0-py3.12.egg-info
+[150.345s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[150.345s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[150.345s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[150.346s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[150.346s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces
+[150.348s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[150.348s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_c.c
+[150.349s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[150.349s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_introspection_c.so
+[150.351s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_c.so
+[150.351s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/_mecharm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[150.352s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg
+[150.354s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_gripper_status.py
+[150.354s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_coords.py
+[150.355s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_coords.py
+[150.356s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_coords_s.c
+[150.357s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_pump_status_s.c
+[150.358s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_pump_status.py
+[150.358s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_angles.py
+[150.359s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_angles.py
+[150.359s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_coords_s.c
+[150.360s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_gripper_status_s.c
+[150.361s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_angles_s.c
+[150.362s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/__init__.py
+[150.363s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_angles_s.c
+[150.363s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv
+[150.364s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_gripper_status.py
+[150.365s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_angles_s.c
+[150.366s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_angles.py
+[150.367s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_coords_s.c
+[150.367s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_coords.py
+[150.368s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_angles_s.c
+[150.369s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_angles.py
+[150.372s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_gripper_status_s.c
+[150.372s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_pump_status.py
+[150.373s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_coords_s.c
+[150.374s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_pump_status_s.c
+[150.375s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/__init__.py
+[150.375s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_coords.py
+[150.376s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/__init__.py
+[150.560s] Listing '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces'...
+[150.560s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/__init__.py'...
+[150.560s] Listing '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg'...
+[150.561s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/__init__.py'...
+[150.561s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_angles.py'...
+[150.562s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_coords.py'...
+[150.562s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_gripper_status.py'...
+[150.562s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_pump_status.py'...
+[150.562s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_angles.py'...
+[150.562s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/msg/_mecharm_set_coords.py'...
+[150.562s] Listing '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/__init__.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_angles.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_get_coords.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_gripper_status.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_pump_status.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_angles.py'...
+[150.563s] Compiling '/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/srv/_set_coords.py'...
+[150.598s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[150.599s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[150.599s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_introspection_c.so
+[150.600s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[150.600s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_c.so
+[150.601s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/python3.12/site-packages/mecharm_interfaces/mecharm_interfaces_s__rosidl_typesupport_c.so" to ""
+[150.602s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_generator_py.so
+[150.602s] -- Set non-toolchain portion of runtime path of "/home/amira/mycobot_ros2/install/mecharm_interfaces/lib/libmecharm_interfaces__rosidl_generator_py.so" to ""
+[150.602s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/ament_index/resource_index/rust_packages/mecharm_interfaces
+[150.604s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust
+[150.605s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/Cargo.toml
+[150.605s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src
+[150.606s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/msg.rs
+[150.607s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/lib.rs
+[150.607s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/msg
+[150.607s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/msg/rmw.rs
+[150.608s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/srv
+[150.608s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/srv/rmw.rs
+[150.609s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/src/srv.rs
+[150.610s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/rust/build.rs
+[150.610s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmAngles.idl
+[150.611s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmCoords.idl
+[150.613s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetAngles.idl
+[150.613s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetCoords.idl
+[150.614s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmGripperStatus.idl
+[150.614s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmPumpStatus.idl
+[150.615s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetAngles.idl
+[150.617s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetAngles.idl
+[150.617s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetCoords.idl
+[150.619s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetCoords.idl
+[150.619s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GripperStatus.idl
+[150.620s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/PumpStatus.idl
+[150.621s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmAngles.msg
+[150.621s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmCoords.msg
+[150.622s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetAngles.msg
+[150.623s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmSetCoords.msg
+[150.623s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmGripperStatus.msg
+[150.625s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/msg/MecharmPumpStatus.msg
+[150.627s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetAngles.srv
+[150.628s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetAngles.srv
+[150.629s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GetCoords.srv
+[150.630s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/SetCoords.srv
+[150.631s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/GripperStatus.srv
+[150.632s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/srv/PumpStatus.srv
+[150.632s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/ament_index/resource_index/package_run_dependencies/mecharm_interfaces
+[150.634s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/ament_index/resource_index/parent_prefix_path/mecharm_interfaces
+[150.634s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/ament_prefix_path.sh
+[150.636s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/ament_prefix_path.dsv
+[150.638s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/path.sh
+[150.638s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/environment/path.dsv
+[150.639s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/local_setup.bash
+[150.640s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/local_setup.sh
+[150.645s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/local_setup.zsh
+[150.665s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/local_setup.dsv
+[150.667s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/package.dsv
+[150.667s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/ament_index/resource_index/packages/mecharm_interfaces
+[150.667s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_generator_cExport.cmake
+[150.667s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[150.668s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[150.668s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[150.668s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[150.668s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[150.668s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_cExport.cmake
+[150.670s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[150.671s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_generator_cppExport.cmake
+[150.671s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[150.671s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[150.671s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[150.671s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[150.672s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_cppExport.cmake
+[150.672s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[150.672s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_generator_pyExport.cmake
+[150.672s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/export_mecharm_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[150.672s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/rosidl_cmake-extras.cmake
+[150.673s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[150.673s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[150.673s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[150.673s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[150.674s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[150.675s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[150.675s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfacesConfig.cmake
+[150.675s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/cmake/mecharm_interfacesConfig-version.cmake
+[150.676s] -- Installing: /home/amira/mycobot_ros2/install/mecharm_interfaces/share/mecharm_interfaces/package.xml
+[150.683s] Invoked command in '/home/amira/mycobot_ros2/build/mecharm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/amira/mycobot_ros2/build/mecharm_interfaces

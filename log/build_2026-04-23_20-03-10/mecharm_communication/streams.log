@@ -1,0 +1,59 @@
+[3.482s] Invoking command in '/home/amira/mycobot_ros2/src/mecharm/mecharm_communication': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mecharm_communication build --build-base /home/amira/mycobot_ros2/build/mecharm_communication/build install --record /home/amira/mycobot_ros2/build/mecharm_communication/install.log --single-version-externally-managed install_data
+[4.672s] running egg_info
+[4.673s] creating ../../../build/mecharm_communication/mecharm_communication.egg-info
+[4.746s] writing ../../../build/mecharm_communication/mecharm_communication.egg-info/PKG-INFO
+[4.748s] writing dependency_links to ../../../build/mecharm_communication/mecharm_communication.egg-info/dependency_links.txt
+[4.750s] writing entry points to ../../../build/mecharm_communication/mecharm_communication.egg-info/entry_points.txt
+[4.754s] writing requirements to ../../../build/mecharm_communication/mecharm_communication.egg-info/requires.txt
+[4.754s] writing top-level names to ../../../build/mecharm_communication/mecharm_communication.egg-info/top_level.txt
+[4.755s] writing manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[4.899s] reading manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[4.900s] writing manifest file '../../../build/mecharm_communication/mecharm_communication.egg-info/SOURCES.txt'
+[4.903s] running build
+[4.903s] running build_py
+[4.903s] creating /home/amira/mycobot_ros2/build/mecharm_communication/build
+[4.904s] creating /home/amira/mycobot_ros2/build/mecharm_communication/build/lib
+[4.905s] creating /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.905s] copying mecharm_communication/mecharm_topics_pi.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.909s] copying mecharm_communication/mecharm_topics_jsnn.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.911s] copying mecharm_communication/mecharm_topics_seeed.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.912s] copying mecharm_communication/mecharm_services.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.915s] copying mecharm_communication/mecharm_topics.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.917s] copying mecharm_communication/__init__.py -> /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication
+[4.918s] running install
+[4.935s] running install_lib
+[5.002s] creating /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.003s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_pi.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.004s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_jsnn.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.005s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics_seeed.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.006s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/mecharm_services.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.007s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/mecharm_topics.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.009s] copying /home/amira/mycobot_ros2/build/mecharm_communication/build/lib/mecharm_communication/__init__.py -> /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication
+[5.119s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/mecharm_topics_pi.py to mecharm_topics_pi.cpython-312.pyc
+[5.119s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/mecharm_topics_jsnn.py to mecharm_topics_jsnn.cpython-312.pyc
+[5.120s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/mecharm_topics_seeed.py to mecharm_topics_seeed.cpython-312.pyc
+[5.120s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/mecharm_services.py to mecharm_services.cpython-312.pyc
+[5.124s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/mecharm_topics.py to mecharm_topics.cpython-312.pyc
+[5.124s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication/__init__.py to __init__.cpython-312.pyc
+[5.124s] running install_data
+[5.124s] creating /home/amira/mycobot_ros2/install/mecharm_communication/share/ament_index
+[5.127s] creating /home/amira/mycobot_ros2/install/mecharm_communication/share/ament_index/resource_index
+[5.130s] creating /home/amira/mycobot_ros2/install/mecharm_communication/share/ament_index/resource_index/packages
+[5.133s] copying resource/mecharm_communication -> /home/amira/mycobot_ros2/install/mecharm_communication/share/ament_index/resource_index/packages
+[5.137s] copying package.xml -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication
+[5.144s] creating /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.144s] copying launch/communication_topic.launch.py -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.147s] copying launch/communication_seeed.launch.py -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.148s] copying launch/communication_topic_pi.launch.py -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.148s] copying launch/communication_service.launch.py -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.148s] copying launch/communication_jsnn.launch.py -> /home/amira/mycobot_ros2/install/mecharm_communication/share/mecharm_communication/launch
+[5.149s] running install_egg_info
+[5.228s] Copying ../../../build/mecharm_communication/mecharm_communication.egg-info to /home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages/mecharm_communication-0.0.0-py3.12.egg-info
+[5.228s] running install_scripts
+[5.765s] Installing mecharm_services script to /home/amira/mycobot_ros2/install/mecharm_communication/lib/mecharm_communication
+[5.768s] Installing mycobot_topics script to /home/amira/mycobot_ros2/install/mecharm_communication/lib/mecharm_communication
+[5.783s] Installing mycobot_topics_jsnn script to /home/amira/mycobot_ros2/install/mecharm_communication/lib/mecharm_communication
+[5.783s] Installing mycobot_topics_pi script to /home/amira/mycobot_ros2/install/mecharm_communication/lib/mecharm_communication
+[5.784s] Installing mycobot_topics_seeed script to /home/amira/mycobot_ros2/install/mecharm_communication/lib/mecharm_communication
+[5.784s] writing list of installed files to '/home/amira/mycobot_ros2/build/mecharm_communication/install.log'
+[5.894s] Invoked command in '/home/amira/mycobot_ros2/src/mecharm/mecharm_communication' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mecharm_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mecharm_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mecharm_communication build --build-base /home/amira/mycobot_ros2/build/mecharm_communication/build install --record /home/amira/mycobot_ros2/build/mecharm_communication/install.log --single-version-externally-managed install_data

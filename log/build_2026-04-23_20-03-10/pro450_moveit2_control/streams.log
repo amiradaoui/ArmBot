@@ -1,0 +1,43 @@
+[3.770s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_pro/pro450_moveit2_control': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/pro450_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pro450_moveit2_control build --build-base /home/amira/mycobot_ros2/build/pro450_moveit2_control/build install --record /home/amira/mycobot_ros2/build/pro450_moveit2_control/install.log --single-version-externally-managed install_data
+[4.768s] running egg_info
+[4.770s] creating ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info
+[4.907s] writing ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/PKG-INFO
+[4.911s] writing dependency_links to ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/dependency_links.txt
+[4.913s] writing entry points to ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/entry_points.txt
+[4.914s] writing requirements to ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/requires.txt
+[4.915s] writing top-level names to ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/top_level.txt
+[4.915s] writing manifest file '../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/SOURCES.txt'
+[5.064s] reading manifest file '../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/SOURCES.txt'
+[5.068s] adding license file 'LICENSE'
+[5.068s] writing manifest file '../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info/SOURCES.txt'
+[5.068s] running build
+[5.069s] running build_py
+[5.070s] creating /home/amira/mycobot_ros2/build/pro450_moveit2_control/build
+[5.143s] creating /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib
+[5.143s] creating /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control
+[5.152s] copying pro450_moveit2_control/sync_plan.py -> /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control
+[5.152s] copying pro450_moveit2_control/test.py -> /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control
+[5.152s] copying pro450_moveit2_control/__init__.py -> /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control
+[5.153s] running install
+[5.153s] running install_lib
+[5.206s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control
+[5.207s] copying /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control/sync_plan.py -> /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control
+[5.208s] copying /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control/test.py -> /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control
+[5.209s] copying /home/amira/mycobot_ros2/build/pro450_moveit2_control/build/lib/pro450_moveit2_control/__init__.py -> /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control
+[5.213s] byte-compiling /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control/sync_plan.py to sync_plan.cpython-312.pyc
+[5.215s] byte-compiling /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control/test.py to test.cpython-312.pyc
+[5.218s] byte-compiling /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control/__init__.py to __init__.cpython-312.pyc
+[5.218s] running install_data
+[5.219s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/ament_index
+[5.219s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/ament_index/resource_index
+[5.221s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/ament_index/resource_index/packages
+[5.225s] copying resource/pro450_moveit2_control -> /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/ament_index/resource_index/packages
+[5.226s] copying package.xml -> /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/pro450_moveit2_control
+[5.230s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/pro450_moveit2_control/launch
+[5.232s] creating /home/amira/mycobot_ros2/install/pro450_moveit2_control/share/pro450_moveit2_control/config
+[5.233s] running install_egg_info
+[5.358s] Copying ../../../build/pro450_moveit2_control/pro450_moveit2_control.egg-info to /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages/pro450_moveit2_control-0.0.0-py3.12.egg-info
+[5.359s] running install_scripts
+[5.959s] Installing sync_plan script to /home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/pro450_moveit2_control
+[5.960s] writing list of installed files to '/home/amira/mycobot_ros2/build/pro450_moveit2_control/install.log'
+[6.145s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_pro/pro450_moveit2_control' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/pro450_moveit2_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/pro450_moveit2_control/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/pro450_moveit2_control build --build-base /home/amira/mycobot_ros2/build/pro450_moveit2_control/build install --record /home/amira/mycobot_ros2/build/pro450_moveit2_control/install.log --single-version-externally-managed install_data

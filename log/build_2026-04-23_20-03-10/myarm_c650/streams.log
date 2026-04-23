@@ -1,0 +1,67 @@
+[3.715s] Invoking command in '/home/amira/mycobot_ros2/src/myArm/myarm_c650': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_communication:/home/amira/mycobot_ros2/install/mycobot_interfaces:/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/myarm_c650 build --build-base /home/amira/mycobot_ros2/build/myarm_c650/build install --record /home/amira/mycobot_ros2/build/myarm_c650/install.log --single-version-externally-managed install_data
+[4.767s] running egg_info
+[4.767s] creating ../../../build/myarm_c650/myarm_c650.egg-info
+[4.886s] writing ../../../build/myarm_c650/myarm_c650.egg-info/PKG-INFO
+[4.886s] writing dependency_links to ../../../build/myarm_c650/myarm_c650.egg-info/dependency_links.txt
+[4.886s] writing entry points to ../../../build/myarm_c650/myarm_c650.egg-info/entry_points.txt
+[4.886s] writing requirements to ../../../build/myarm_c650/myarm_c650.egg-info/requires.txt
+[4.886s] writing top-level names to ../../../build/myarm_c650/myarm_c650.egg-info/top_level.txt
+[4.887s] writing manifest file '../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[5.136s] reading manifest file '../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[5.140s] adding license file 'LICENSE'
+[5.145s] writing manifest file '../../../build/myarm_c650/myarm_c650.egg-info/SOURCES.txt'
+[5.145s] running build
+[5.152s] running build_py
+[5.152s] creating /home/amira/mycobot_ros2/build/myarm_c650/build
+[5.152s] creating /home/amira/mycobot_ros2/build/myarm_c650/build/lib
+[5.152s] creating /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.153s] copying myarm_c650/slider_control.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.168s] copying myarm_c650/follow_display.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.174s] copying myarm_c650/debug.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.179s] copying myarm_c650/simple_gui.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.205s] copying myarm_c650/test.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.207s] copying myarm_c650/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.214s] copying myarm_c650/__init__.py -> /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650
+[5.214s] running install
+[5.274s] running install_lib
+[5.360s] creating /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.361s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/slider_control.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.364s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/follow_display.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.365s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/debug.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.367s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/simple_gui.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.369s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/test.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.372s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.372s] copying /home/amira/mycobot_ros2/build/myarm_c650/build/lib/myarm_c650/__init__.py -> /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650
+[5.374s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/slider_control.py to slider_control.cpython-312.pyc
+[5.376s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/follow_display.py to follow_display.cpython-312.pyc
+[5.420s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/debug.py to debug.cpython-312.pyc
+[5.420s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/simple_gui.py to simple_gui.cpython-312.pyc
+[5.423s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/test.py to test.cpython-312.pyc
+[5.425s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[5.430s] byte-compiling /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650/__init__.py to __init__.cpython-312.pyc
+[5.431s] running install_data
+[5.432s] creating /home/amira/mycobot_ros2/install/myarm_c650/share/ament_index
+[5.433s] creating /home/amira/mycobot_ros2/install/myarm_c650/share/ament_index/resource_index
+[5.433s] creating /home/amira/mycobot_ros2/install/myarm_c650/share/ament_index/resource_index/packages
+[5.434s] copying resource/myarm_c650 -> /home/amira/mycobot_ros2/install/myarm_c650/share/ament_index/resource_index/packages
+[5.435s] copying package.xml -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650
+[5.437s] creating /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.440s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.441s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.446s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.452s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.456s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/launch
+[5.475s] creating /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/config
+[5.479s] copying config/myarm_with_marker.rviz -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/config
+[5.479s] copying config/myarm_c650.rviz -> /home/amira/mycobot_ros2/install/myarm_c650/share/myarm_c650/config
+[5.482s] running install_egg_info
+[5.618s] Copying ../../../build/myarm_c650/myarm_c650.egg-info to /home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages/myarm_c650-0.0.0-py3.12.egg-info
+[5.621s] running install_scripts
+[6.144s] Installing debug script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.145s] Installing follow_display script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.166s] Installing simple_gui script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.171s] Installing slider_control script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.171s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.172s] Installing test script to /home/amira/mycobot_ros2/install/myarm_c650/lib/myarm_c650
+[6.172s] writing list of installed files to '/home/amira/mycobot_ros2/build/myarm_c650/install.log'
+[6.286s] Invoked command in '/home/amira/mycobot_ros2/src/myArm/myarm_c650' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_communication:/home/amira/mycobot_ros2/install/mycobot_interfaces:/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mycobot_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/myarm_c650/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/myarm_c650/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_interfaces/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/myarm_c650 build --build-base /home/amira/mycobot_ros2/build/myarm_c650/build install --record /home/amira/mycobot_ros2/build/myarm_c650/install.log --single-version-externally-managed install_data

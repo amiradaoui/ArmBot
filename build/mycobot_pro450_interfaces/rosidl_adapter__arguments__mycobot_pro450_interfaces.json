@@ -1,0 +1,16 @@
+{
+  "package_name": "mycobot_pro450_interfaces",
+  "non_idl_tuples": [
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:msg/MycobotAngles.msg",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:msg/MycobotCoords.msg",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:msg/MycobotSetAngles.msg",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:msg/MycobotSetCoords.msg",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:msg/MycobotGripperStatus.msg",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/GetAngles.srv",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/SetAngles.srv",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/GetCoords.srv",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/SetCoords.srv",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/GripperStatus.srv",
+    "/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro450_interfaces:srv/GetGripperValue.srv"
+  ]
+}

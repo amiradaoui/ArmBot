@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "mypalletizer_interfaces__rs",
+		"source" : "/home/amira/mycobot_ros2/build/mypalletizer_interfaces/mypalletizer_interfaces__rs"
+	}
+}

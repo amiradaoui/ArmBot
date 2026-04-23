@@ -1,0 +1,90 @@
+[3.495s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280pi': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280pi build --build-base /home/amira/mycobot_ros2/build/mycobot_280pi/build install --record /home/amira/mycobot_ros2/build/mycobot_280pi/install.log --single-version-externally-managed install_data
+[4.609s] running egg_info
+[4.610s] creating ../../../build/mycobot_280pi/mycobot_280pi.egg-info
+[4.698s] writing ../../../build/mycobot_280pi/mycobot_280pi.egg-info/PKG-INFO
+[4.700s] writing dependency_links to ../../../build/mycobot_280pi/mycobot_280pi.egg-info/dependency_links.txt
+[4.702s] writing entry points to ../../../build/mycobot_280pi/mycobot_280pi.egg-info/entry_points.txt
+[4.702s] writing requirements to ../../../build/mycobot_280pi/mycobot_280pi.egg-info/requires.txt
+[4.703s] writing top-level names to ../../../build/mycobot_280pi/mycobot_280pi.egg-info/top_level.txt
+[4.705s] writing manifest file '../../../build/mycobot_280pi/mycobot_280pi.egg-info/SOURCES.txt'
+[4.979s] reading manifest file '../../../build/mycobot_280pi/mycobot_280pi.egg-info/SOURCES.txt'
+[4.984s] adding license file 'LICENSE'
+[4.996s] writing manifest file '../../../build/mycobot_280pi/mycobot_280pi.egg-info/SOURCES.txt'
+[5.000s] running build
+[5.023s] running build_py
+[5.029s] creating /home/amira/mycobot_ros2/build/mycobot_280pi/build
+[5.045s] creating /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib
+[5.045s] creating /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.045s] copying mycobot_280pi/slider_control.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.046s] copying mycobot_280pi/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.046s] copying mycobot_280pi/camera_display.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.046s] copying mycobot_280pi/follow_display.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/opencv_camera.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/listen_real.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/listen_real_service.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/simple_gui.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.048s] copying mycobot_280pi/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi
+[5.050s] running install
+[5.073s] running install_lib
+[5.255s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.261s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/slider_control.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.262s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.262s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/camera_display.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.274s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/follow_display.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.275s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/opencv_camera.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.277s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/listen_real.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/listen_real_service.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.292s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/simple_gui.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.293s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.293s] copying /home/amira/mycobot_ros2/build/mycobot_280pi/build/lib/mycobot_280pi/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/slider_control.py to slider_control.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/camera_display.py to camera_display.cpython-312.pyc
+[5.293s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/follow_display.py to follow_display.cpython-312.pyc
+[5.294s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/opencv_camera.py to opencv_camera.cpython-312.pyc
+[5.294s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/listen_real.py to listen_real.cpython-312.pyc
+[5.294s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/listen_real_service.py to listen_real_service.cpython-312.pyc
+[5.313s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[5.313s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/simple_gui.py to simple_gui.cpython-312.pyc
+[5.327s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[5.338s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi/__init__.py to __init__.cpython-312.pyc
+[5.339s] running install_data
+[5.343s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/share/ament_index
+[5.343s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/share/ament_index/resource_index
+[5.357s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/share/ament_index/resource_index/packages
+[5.357s] copying resource/mycobot_280pi -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/ament_index/resource_index/packages
+[5.363s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi
+[5.364s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.364s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.364s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.364s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.364s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.364s] copying launch/slider_control_pump.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.382s] copying launch/test_camera_flange.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.385s] copying launch/slider_control_camera_flange.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.393s] copying launch/test_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.397s] copying launch/test_camera_flange_pump.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.417s] copying launch/test_pump.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.418s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.419s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/launch
+[5.420s] creating /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/config
+[5.421s] copying config/mycobot_pi.rviz -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/config
+[5.423s] copying config/mycobot_with_marker.rviz -> /home/amira/mycobot_ros2/install/mycobot_280pi/share/mycobot_280pi/config
+[5.431s] running install_egg_info
+[5.553s] Copying ../../../build/mycobot_280pi/mycobot_280pi.egg-info to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages/mycobot_280pi-0.0.0-py3.12.egg-info
+[5.557s] running install_scripts
+[5.975s] Installing camera_display script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[5.978s] Installing follow_display script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[5.978s] Installing listen_real script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[5.993s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[5.997s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.004s] Installing opencv_camera script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.004s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.005s] Installing slider_control script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.005s] Installing slider_control_adaptive_gripper script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.005s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mycobot_280pi/lib/mycobot_280pi
+[6.005s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_280pi/install.log'
+[6.167s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_280/mycobot_280pi' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_280pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_280pi/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_280pi build --build-base /home/amira/mycobot_ros2/build/mycobot_280pi/build install --record /home/amira/mycobot_ros2/build/mycobot_280pi/install.log --single-version-externally-managed install_data

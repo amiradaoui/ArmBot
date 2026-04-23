@@ -1,0 +1,77 @@
+[3.096s] Invoking command in '/home/amira/mycobot_ros2/src/mecharm/mecharm_pi': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mecharm_pi build --build-base /home/amira/mycobot_ros2/build/mecharm_pi/build install --record /home/amira/mycobot_ros2/build/mecharm_pi/install.log --single-version-externally-managed install_data
+[4.367s] running egg_info
+[4.368s] creating ../../../build/mecharm_pi/mecharm_pi.egg-info
+[4.490s] writing ../../../build/mecharm_pi/mecharm_pi.egg-info/PKG-INFO
+[4.491s] writing dependency_links to ../../../build/mecharm_pi/mecharm_pi.egg-info/dependency_links.txt
+[4.496s] writing entry points to ../../../build/mecharm_pi/mecharm_pi.egg-info/entry_points.txt
+[4.497s] writing requirements to ../../../build/mecharm_pi/mecharm_pi.egg-info/requires.txt
+[4.497s] writing top-level names to ../../../build/mecharm_pi/mecharm_pi.egg-info/top_level.txt
+[4.498s] writing manifest file '../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[4.754s] reading manifest file '../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[4.764s] adding license file 'LICENSE'
+[4.773s] writing manifest file '../../../build/mecharm_pi/mecharm_pi.egg-info/SOURCES.txt'
+[4.777s] running build
+[4.785s] running build_py
+[4.796s] creating /home/amira/mycobot_ros2/build/mecharm_pi/build
+[4.796s] creating /home/amira/mycobot_ros2/build/mecharm_pi/build/lib
+[4.797s] creating /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.800s] copying mecharm_pi/slider_control.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.802s] copying mecharm_pi/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.804s] copying mecharm_pi/follow_display.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.809s] copying mecharm_pi/listen_real.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.817s] copying mecharm_pi/listen_real_service.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.817s] copying mecharm_pi/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.820s] copying mecharm_pi/simple_gui.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.840s] copying mecharm_pi/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.847s] copying mecharm_pi/__init__.py -> /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi
+[4.863s] running install
+[4.887s] running install_lib
+[4.979s] creating /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.980s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/slider_control.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.980s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.981s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/follow_display.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.981s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/listen_real.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.982s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/listen_real_service.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.982s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/slider_control_adaptive_gripper.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.982s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/simple_gui.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.982s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[4.982s] copying /home/amira/mycobot_ros2/build/mecharm_pi/build/lib/mecharm_pi/__init__.py -> /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi
+[5.026s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/slider_control.py to slider_control.cpython-312.pyc
+[5.028s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[5.029s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/follow_display.py to follow_display.cpython-312.pyc
+[5.029s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real.py to listen_real.cpython-312.pyc
+[5.029s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/listen_real_service.py to listen_real_service.cpython-312.pyc
+[5.029s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/slider_control_adaptive_gripper.py to slider_control_adaptive_gripper.cpython-312.pyc
+[5.030s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/simple_gui.py to simple_gui.cpython-312.pyc
+[5.047s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[5.048s] byte-compiling /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi/__init__.py to __init__.cpython-312.pyc
+[5.048s] running install_data
+[5.050s] creating /home/amira/mycobot_ros2/install/mecharm_pi/share/ament_index
+[5.050s] creating /home/amira/mycobot_ros2/install/mecharm_pi/share/ament_index/resource_index
+[5.051s] creating /home/amira/mycobot_ros2/install/mecharm_pi/share/ament_index/resource_index/packages
+[5.052s] copying resource/mecharm_pi -> /home/amira/mycobot_ros2/install/mecharm_pi/share/ament_index/resource_index/packages
+[5.056s] copying package.xml -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi
+[5.059s] creating /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.062s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.064s] copying launch/slider_control_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.066s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.071s] copying launch/test_adaptive_gripper.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.071s] copying launch/follow.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.076s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.082s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/launch
+[5.090s] creating /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/config
+[5.091s] copying config/mecharm_pi.rviz -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/config
+[5.091s] copying config/mycobot_with_marker.rviz -> /home/amira/mycobot_ros2/install/mecharm_pi/share/mecharm_pi/config
+[5.098s] running install_egg_info
+[5.185s] Copying ../../../build/mecharm_pi/mecharm_pi.egg-info to /home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages/mecharm_pi-0.0.0-py3.12.egg-info
+[5.191s] running install_scripts
+[5.734s] Installing follow_display script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.736s] Installing listen_real script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.740s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.743s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.743s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.745s] Installing slider_control script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.745s] Installing slider_control_adaptive_gripper script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.746s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mecharm_pi/lib/mecharm_pi
+[5.747s] writing list of installed files to '/home/amira/mycobot_ros2/build/mecharm_pi/install.log'
+[5.878s] Invoked command in '/home/amira/mycobot_ros2/src/mecharm/mecharm_pi' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mecharm_pi/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mecharm_pi/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mecharm_pi build --build-base /home/amira/mycobot_ros2/build/mecharm_pi/build install --record /home/amira/mycobot_ros2/build/mecharm_pi/install.log --single-version-externally-managed install_data

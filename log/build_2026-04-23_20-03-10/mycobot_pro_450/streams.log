@@ -1,0 +1,87 @@
+[2.967s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro_450': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_pro_450/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_pro_450 build --build-base /home/amira/mycobot_ros2/build/mycobot_pro_450/build install --record /home/amira/mycobot_ros2/build/mycobot_pro_450/install.log --single-version-externally-managed install_data
+[3.469s] running egg_info
+[3.476s] creating ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info
+[3.608s] writing ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/PKG-INFO
+[3.609s] writing dependency_links to ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/dependency_links.txt
+[3.609s] writing entry points to ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/entry_points.txt
+[3.609s] writing requirements to ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/requires.txt
+[3.609s] writing top-level names to ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/top_level.txt
+[3.615s] writing manifest file '../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/SOURCES.txt'
+[3.817s] reading manifest file '../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/SOURCES.txt'
+[3.818s] adding license file 'LICENSE'
+[3.821s] writing manifest file '../../../build/mycobot_pro_450/mycobot_pro_450.egg-info/SOURCES.txt'
+[3.825s] running build
+[3.828s] running build_py
+[3.828s] creating /home/amira/mycobot_ros2/build/mycobot_pro_450/build
+[3.828s] creating /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib
+[3.829s] creating /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.829s] copying mycobot_pro_450/slider_control.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.837s] copying mycobot_pro_450/slider_control_force_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.838s] copying mycobot_pro_450/listen_real_of_topic.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.845s] copying mycobot_pro_450/follow_display.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.845s] copying mycobot_pro_450/listen_real.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.848s] copying mycobot_pro_450/simple_gui_force_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.848s] copying mycobot_pro_450/listen_real_service.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.852s] copying mycobot_pro_450/simple_gui.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.862s] copying mycobot_pro_450/teleop_keyboard.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.863s] copying mycobot_pro_450/teleop_keyboard_force_gripper.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.868s] copying mycobot_pro_450/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450
+[3.872s] running install
+[3.903s] running install_lib
+[4.013s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.028s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/slider_control.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.028s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/slider_control_force_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.028s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/listen_real_of_topic.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.029s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/follow_display.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.029s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/listen_real.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.029s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/simple_gui_force_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/listen_real_service.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/simple_gui.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/teleop_keyboard.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/teleop_keyboard_force_gripper.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] copying /home/amira/mycobot_ros2/build/mycobot_pro_450/build/lib/mycobot_pro_450/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450
+[4.030s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/slider_control.py to slider_control.cpython-312.pyc
+[4.031s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/slider_control_force_gripper.py to slider_control_force_gripper.cpython-312.pyc
+[4.031s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/listen_real_of_topic.py to listen_real_of_topic.cpython-312.pyc
+[4.031s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/follow_display.py to follow_display.cpython-312.pyc
+[4.031s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/listen_real.py to listen_real.cpython-312.pyc
+[4.032s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/simple_gui_force_gripper.py to simple_gui_force_gripper.cpython-312.pyc
+[4.037s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/listen_real_service.py to listen_real_service.cpython-312.pyc
+[4.040s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/simple_gui.py to simple_gui.cpython-312.pyc
+[4.046s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/teleop_keyboard.py to teleop_keyboard.cpython-312.pyc
+[4.051s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/teleop_keyboard_force_gripper.py to teleop_keyboard_force_gripper.cpython-312.pyc
+[4.056s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450/__init__.py to __init__.cpython-312.pyc
+[4.056s] running install_data
+[4.056s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/share/ament_index
+[4.057s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/share/ament_index/resource_index
+[4.058s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/share/ament_index/resource_index/packages
+[4.058s] copying resource/mycobot_pro_450 -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/ament_index/resource_index/packages
+[4.059s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450
+[4.062s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.064s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.069s] copying launch/simple_gui.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.074s] copying launch/mycobot_follow.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.074s] copying launch/slider_control_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.077s] copying launch/test_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.078s] copying launch/teleop_keyboard_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.090s] copying launch/teleop_keyboard.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.097s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.100s] copying launch/simple_gui_force_gripper.launch.py -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/launch
+[4.101s] creating /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/config
+[4.102s] copying config/mycobot_pro_450.rviz -> /home/amira/mycobot_ros2/install/mycobot_pro_450/share/mycobot_pro_450/config
+[4.170s] running install_egg_info
+[4.175s] Copying ../../../build/mycobot_pro_450/mycobot_pro_450.egg-info to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages/mycobot_pro_450-0.0.0-py3.12.egg-info
+[4.190s] running install_scripts
+[4.601s] Installing camera_display script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.604s] Installing follow_display script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.606s] Installing listen_real script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.611s] Installing listen_real_of_topic script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.611s] Installing listen_real_service script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.612s] Installing simple_gui script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.639s] Installing simple_gui_force_gripper script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.640s] Installing slider_control script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.642s] Installing slider_control_force_gripper script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.671s] Installing teleop_keyboard script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.671s] Installing teleop_keyboard_force_gripper script to /home/amira/mycobot_ros2/install/mycobot_pro_450/lib/mycobot_pro_450
+[4.671s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_pro_450/install.log'
+[4.799s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_pro_450' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_pro_450/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_pro_450/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_pro_450 build --build-base /home/amira/mycobot_ros2/build/mycobot_pro_450/build install --record /home/amira/mycobot_ros2/build/mycobot_pro_450/install.log --single-version-externally-managed install_data

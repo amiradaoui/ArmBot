@@ -1,0 +1,50 @@
+[3.014s] Invoking command in '/home/amira/mycobot_ros2/src/mypalletizer_260/mypalletizer_communication': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypalletizer_communication build --build-base /home/amira/mycobot_ros2/build/mypalletizer_communication/build install --record /home/amira/mycobot_ros2/build/mypalletizer_communication/install.log --single-version-externally-managed install_data
+[4.084s] running egg_info
+[4.097s] creating ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info
+[4.227s] writing ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/PKG-INFO
+[4.232s] writing dependency_links to ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/dependency_links.txt
+[4.239s] writing entry points to ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/entry_points.txt
+[4.239s] writing requirements to ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/requires.txt
+[4.240s] writing top-level names to ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/top_level.txt
+[4.240s] writing manifest file '../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[4.387s] reading manifest file '../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[4.397s] writing manifest file '../../../build/mypalletizer_communication/mypalletizer_communication.egg-info/SOURCES.txt'
+[4.399s] running build
+[4.399s] running build_py
+[4.401s] creating /home/amira/mycobot_ros2/build/mypalletizer_communication/build
+[4.402s] creating /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib
+[4.403s] creating /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[4.404s] copying mypalletizer_communication/mypalletizer_topics.py -> /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[4.409s] copying mypalletizer_communication/mypalletizer_services.py -> /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[4.415s] copying mypalletizer_communication/mypalletizer_topics_seeed.py -> /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[4.419s] copying mypalletizer_communication/__init__.py -> /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication
+[4.421s] running install
+[4.458s] running install_lib
+[4.550s] creating /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[4.550s] copying /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_topics.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[4.551s] copying /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_services.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[4.555s] copying /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication/mypalletizer_topics_seeed.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[4.555s] copying /home/amira/mycobot_ros2/build/mypalletizer_communication/build/lib/mypalletizer_communication/__init__.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication
+[4.557s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_topics.py to mypalletizer_topics.cpython-312.pyc
+[4.559s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_services.py to mypalletizer_services.cpython-312.pyc
+[4.561s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/mypalletizer_topics_seeed.py to mypalletizer_topics_seeed.cpython-312.pyc
+[4.564s] byte-compiling /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication/__init__.py to __init__.cpython-312.pyc
+[4.564s] running install_data
+[4.565s] creating /home/amira/mycobot_ros2/install/mypalletizer_communication/share/ament_index
+[4.566s] creating /home/amira/mycobot_ros2/install/mypalletizer_communication/share/ament_index/resource_index
+[4.567s] creating /home/amira/mycobot_ros2/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[4.567s] copying resource/mypalletizer_communication -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/ament_index/resource_index/packages
+[4.568s] copying package.xml -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication
+[4.573s] creating /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[4.578s] copying launch/communication_topic.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[4.578s] copying launch/communication_seeed.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[4.580s] copying launch/communication_topic_pi.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[4.583s] copying launch/communication_service.launch.py -> /home/amira/mycobot_ros2/install/mypalletizer_communication/share/mypalletizer_communication/launch
+[4.631s] running install_egg_info
+[4.684s] Copying ../../../build/mypalletizer_communication/mypalletizer_communication.egg-info to /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages/mypalletizer_communication-0.0.0-py3.12.egg-info
+[4.685s] running install_scripts
+[5.320s] Installing mypalletizer_services script to /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/mypalletizer_communication
+[5.323s] Installing mypalletizer_topics script to /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/mypalletizer_communication
+[5.327s] Installing mypalletizer_topics_seeed script to /home/amira/mycobot_ros2/install/mypalletizer_communication/lib/mypalletizer_communication
+[5.357s] writing list of installed files to '/home/amira/mycobot_ros2/build/mypalletizer_communication/install.log'
+[5.465s] Invoked command in '/home/amira/mycobot_ros2/src/mypalletizer_260/mypalletizer_communication' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/amira/mycobot_ros2/install/mypalletizer_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/amira/mycobot_ros2/build/mypalletizer_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mypalletizer_communication/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mypalletizer_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mypalletizer_communication build --build-base /home/amira/mycobot_ros2/build/mypalletizer_communication/build install --record /home/amira/mycobot_ros2/build/mypalletizer_communication/install.log --single-version-externally-managed install_data

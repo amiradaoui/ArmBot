@@ -1,0 +1,42 @@
+[3.395s] Invoking command in '/home/amira/mycobot_ros2/src/ultraArm/ultraarm': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/ultraarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ultraarm build --build-base /home/amira/mycobot_ros2/build/ultraarm/build install --record /home/amira/mycobot_ros2/build/ultraarm/install.log --single-version-externally-managed install_data
+[4.632s] running egg_info
+[4.632s] creating ../../../build/ultraarm/ultraarm.egg-info
+[4.938s] writing ../../../build/ultraarm/ultraarm.egg-info/PKG-INFO
+[4.938s] writing dependency_links to ../../../build/ultraarm/ultraarm.egg-info/dependency_links.txt
+[4.938s] writing entry points to ../../../build/ultraarm/ultraarm.egg-info/entry_points.txt
+[4.939s] writing requirements to ../../../build/ultraarm/ultraarm.egg-info/requires.txt
+[4.939s] writing top-level names to ../../../build/ultraarm/ultraarm.egg-info/top_level.txt
+[4.939s] writing manifest file '../../../build/ultraarm/ultraarm.egg-info/SOURCES.txt'
+[4.939s] reading manifest file '../../../build/ultraarm/ultraarm.egg-info/SOURCES.txt'
+[4.939s] writing manifest file '../../../build/ultraarm/ultraarm.egg-info/SOURCES.txt'
+[4.939s] running build
+[4.940s] running build_py
+[4.940s] creating /home/amira/mycobot_ros2/build/ultraarm/build
+[4.940s] creating /home/amira/mycobot_ros2/build/ultraarm/build/lib
+[4.940s] creating /home/amira/mycobot_ros2/build/ultraarm/build/lib/ultraarm
+[4.940s] copying ultraarm/slider_control.py -> /home/amira/mycobot_ros2/build/ultraarm/build/lib/ultraarm
+[4.940s] copying ultraarm/__init__.py -> /home/amira/mycobot_ros2/build/ultraarm/build/lib/ultraarm
+[4.940s] running install
+[4.965s] running install_lib
+[5.065s] creating /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm
+[5.067s] copying /home/amira/mycobot_ros2/build/ultraarm/build/lib/ultraarm/slider_control.py -> /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm
+[5.068s] copying /home/amira/mycobot_ros2/build/ultraarm/build/lib/ultraarm/__init__.py -> /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm
+[5.068s] byte-compiling /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm/slider_control.py to slider_control.cpython-312.pyc
+[5.071s] byte-compiling /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm/__init__.py to __init__.cpython-312.pyc
+[5.072s] running install_data
+[5.072s] creating /home/amira/mycobot_ros2/install/ultraarm/share/ament_index
+[5.073s] creating /home/amira/mycobot_ros2/install/ultraarm/share/ament_index/resource_index
+[5.073s] creating /home/amira/mycobot_ros2/install/ultraarm/share/ament_index/resource_index/packages
+[5.073s] copying resource/ultraarm -> /home/amira/mycobot_ros2/install/ultraarm/share/ament_index/resource_index/packages
+[5.082s] copying package.xml -> /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm
+[5.082s] creating /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm/launch
+[5.082s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm/launch
+[5.084s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm/launch
+[5.095s] creating /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm/config
+[5.103s] copying config/ultraarm.rviz -> /home/amira/mycobot_ros2/install/ultraarm/share/ultraarm/config
+[5.104s] running install_egg_info
+[5.217s] Copying ../../../build/ultraarm/ultraarm.egg-info to /home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages/ultraarm-0.0.0-py3.12.egg-info
+[5.220s] running install_scripts
+[5.637s] Installing slider_control script to /home/amira/mycobot_ros2/install/ultraarm/lib/ultraarm
+[5.641s] writing list of installed files to '/home/amira/mycobot_ros2/build/ultraarm/install.log'
+[5.802s] Invoked command in '/home/amira/mycobot_ros2/src/ultraArm/ultraarm' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/ultraarm/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/ultraarm/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/ultraarm build --build-base /home/amira/mycobot_ros2/build/ultraarm/build install --record /home/amira/mycobot_ros2/build/ultraarm/install.log --single-version-externally-managed install_data

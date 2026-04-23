@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4cf735413b3b25b15770.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "mypalletizer_interfaces__py",
+					"jsonFile" : "directory-mypalletizer_interfaces__py-90e83f80f1795789f85a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/amira/mycobot_ros2/build/mypalletizer_interfaces/mypalletizer_interfaces__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "mypalletizer_interfaces__rs",
+					"jsonFile" : "directory-mypalletizer_interfaces__rs-ba72d291187b23c54d75.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/amira/mycobot_ros2/build/mypalletizer_interfaces/mypalletizer_interfaces__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "mypalletizer_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_mypalletizer_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_mypalletizer_interfaces_egg-2773dd477bbafe220db0.json",
+					"name" : "ament_cmake_python_build_mypalletizer_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_mypalletizer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_mypalletizer_interfaces-4b3db94bba8b741a81e8.json",
+					"name" : "ament_cmake_python_copy_mypalletizer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces-8a598df64023920496a6.json",
+					"name" : "mypalletizer_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__cpp-ddc8b8e3396625022b67.json",
+					"name" : "mypalletizer_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mypalletizer_interfaces__py::@d1dbd0380452c71f46ad",
+					"jsonFile" : "target-mypalletizer_interfaces__py-713ed525f80a277e78d7.json",
+					"name" : "mypalletizer_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_generator_c-8113ff5656fa0cbf6c52.json",
+					"name" : "mypalletizer_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_generator_py-4e95c29f68c5fb1c4d30.json",
+					"name" : "mypalletizer_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_generator_type_description-d130ede06b4db8e06fe1.json",
+					"name" : "mypalletizer_interfaces__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_c-d144560ed381f3229178.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_cpp-a1c4e29da16bcded6f12.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_fastrtps_c-88e83a6e511a4aaa8fd6.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp-8fd4ca8a2ed8b655ddee.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_introspection_c-e9c617ebdb08d34f814b.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces__rosidl_typesupport_introspection_cpp-dc349c6bf1c58b11cda1.json",
+					"name" : "mypalletizer_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "mypalletizer_interfaces__rs::@89e0d52ddb2cf01524dd",
+					"jsonFile" : "target-mypalletizer_interfaces__rs-1a93ad62dd47f837b48c.json",
+					"name" : "mypalletizer_interfaces__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces_s__rosidl_typesupport_c-5407275b46fd2ca6be72.json",
+					"name" : "mypalletizer_interfaces_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c-bbbc6a16783e69a82902.json",
+					"name" : "mypalletizer_interfaces_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces_s__rosidl_typesupport_introspection_c-80dbba2e2953805bfe6e.json",
+					"name" : "mypalletizer_interfaces_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mypalletizer_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mypalletizer_interfaces_uninstall-9fc3c9288a9247bd7ff8.json",
+					"name" : "mypalletizer_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-8f3a792e2056137cf95d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/amira/mycobot_ros2/build/mypalletizer_interfaces",
+		"source" : "/home/amira/mycobot_ros2/src/mypalletizer_260/mypalletizer_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

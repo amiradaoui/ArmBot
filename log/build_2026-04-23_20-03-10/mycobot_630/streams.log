@@ -1,0 +1,46 @@
+[3.502s] Invoking command in '/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_630': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_630/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_630 build --build-base /home/amira/mycobot_ros2/build/mycobot_630/build install --record /home/amira/mycobot_ros2/build/mycobot_630/install.log --single-version-externally-managed install_data
+[4.631s] running egg_info
+[4.633s] creating ../../../build/mycobot_630/mycobot_630.egg-info
+[4.721s] writing ../../../build/mycobot_630/mycobot_630.egg-info/PKG-INFO
+[4.722s] writing dependency_links to ../../../build/mycobot_630/mycobot_630.egg-info/dependency_links.txt
+[4.724s] writing entry points to ../../../build/mycobot_630/mycobot_630.egg-info/entry_points.txt
+[4.725s] writing requirements to ../../../build/mycobot_630/mycobot_630.egg-info/requires.txt
+[4.733s] writing top-level names to ../../../build/mycobot_630/mycobot_630.egg-info/top_level.txt
+[4.734s] writing manifest file '../../../build/mycobot_630/mycobot_630.egg-info/SOURCES.txt'
+[4.933s] reading manifest file '../../../build/mycobot_630/mycobot_630.egg-info/SOURCES.txt'
+[4.941s] adding license file 'LICENSE'
+[4.942s] writing manifest file '../../../build/mycobot_630/mycobot_630.egg-info/SOURCES.txt'
+[4.945s] running build
+[4.946s] running build_py
+[4.947s] creating /home/amira/mycobot_ros2/build/mycobot_630/build
+[4.950s] creating /home/amira/mycobot_ros2/build/mycobot_630/build/lib
+[4.951s] creating /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630
+[4.986s] copying mycobot_630/slider_control.py -> /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630
+[4.998s] copying mycobot_630/test.py -> /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630
+[4.998s] copying mycobot_630/__init__.py -> /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630
+[5.001s] running install
+[5.048s] running install_lib
+[5.112s] creating /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630
+[5.112s] copying /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630/slider_control.py -> /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630
+[5.114s] copying /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630/test.py -> /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630
+[5.115s] copying /home/amira/mycobot_ros2/build/mycobot_630/build/lib/mycobot_630/__init__.py -> /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630
+[5.118s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630/slider_control.py to slider_control.cpython-312.pyc
+[5.124s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630/test.py to test.cpython-312.pyc
+[5.130s] byte-compiling /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630/__init__.py to __init__.cpython-312.pyc
+[5.131s] running install_data
+[5.131s] creating /home/amira/mycobot_ros2/install/mycobot_630/share/ament_index
+[5.132s] creating /home/amira/mycobot_ros2/install/mycobot_630/share/ament_index/resource_index
+[5.135s] creating /home/amira/mycobot_ros2/install/mycobot_630/share/ament_index/resource_index/packages
+[5.138s] copying resource/mycobot_630 -> /home/amira/mycobot_ros2/install/mycobot_630/share/ament_index/resource_index/packages
+[5.143s] copying package.xml -> /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630
+[5.145s] creating /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630/launch
+[5.146s] copying launch/slider_control.launch.py -> /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630/launch
+[5.146s] copying launch/test.launch.py -> /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630/launch
+[5.147s] creating /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630/config
+[5.148s] copying config/mycobot_630.rviz -> /home/amira/mycobot_ros2/install/mycobot_630/share/mycobot_630/config
+[5.156s] running install_egg_info
+[5.307s] Copying ../../../build/mycobot_630/mycobot_630.egg-info to /home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages/mycobot_630-0.0.0-py3.12.egg-info
+[5.315s] running install_scripts
+[6.081s] Installing slider_control script to /home/amira/mycobot_ros2/install/mycobot_630/lib/mycobot_630
+[6.083s] writing list of installed files to '/home/amira/mycobot_ros2/build/mycobot_630/install.log'
+[6.313s] Invoked command in '/home/amira/mycobot_ros2/src/mycobot_pro/mycobot_630' returned '0': AMENT_PREFIX_PATH=/home/amira/mycobot_ros2/install/mycobot_description:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/amira/mycobot_ros2/build/mycobot_630/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/amira/mycobot_ros2/install/mycobot_630/lib/python3.12/site-packages:/home/amira/mycobot_ros2/install/mycobot_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/mycobot_630 build --build-base /home/amira/mycobot_ros2/build/mycobot_630/build install --record /home/amira/mycobot_ros2/build/mycobot_630/install.log --single-version-externally-managed install_data

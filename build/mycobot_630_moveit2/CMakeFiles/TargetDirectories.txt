@@ -1,0 +1,9 @@
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/uninstall.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/mycobot_630_moveit2_uninstall.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/test.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/edit_cache.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/rebuild_cache.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/list_install_components.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/install.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/install/local.dir
+/home/amira/mycobot_ros2/build/mycobot_630_moveit2/CMakeFiles/install/strip.dir
