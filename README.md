@@ -6,8 +6,8 @@ This repository contains the complete implementation of the **MyCobot** robotic 
 
 ## 📸 Project Preview
 <p align="center">
-  <img src="images/pic1.png" width="48%" />
-  <img src="images/pic2.png" width="48%" />
+  <img src="images/photo_6003588536159899025_x.jpg" width="48%" />
+  <img src="images/photo_6003588536159899026_x.jpg" width="48%" />
 </p>
 
 ---
