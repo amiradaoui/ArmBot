@@ -30,12 +30,12 @@ Open your terminal and navigate to your workspace to build the packages:
 ```bash
 cd ~/mycobot_ros2
 colcon build
-
+````
 ### Step 2: Source the Environment
 After a successful build, you must source the workspace in every new terminal:
 ```bash
 source install/setup.bash
-
+````
 ###How to Run
 To launch the robot visualization and control nodes, execute the following command:
 ```bash
