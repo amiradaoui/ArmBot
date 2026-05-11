@@ -40,6 +40,6 @@ source install/setup.bash
 To launch the robot visualization and control nodes, execute the following command:
 ```bash
 ros2 launch mycobot_280 slider_control.launch.py model:=/home/amira/mycobot_ros2/src/mycobot_description/urdf/mycobot_280_pi/mycobot_280_pi_adaptive_gripper.urdf
-
+````
 This project was co-authored and implemented by the team:
 Amira Malak Daoui
