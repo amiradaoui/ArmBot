@@ -44,3 +44,4 @@ ros2 launch mycobot_280 slider_control.launch.py model:=/home/amira/mycobot_ros2
 This project was co-authored and implemented by the team:
 Amira Malak Daoui 
 LAGAB MARIA
+Athmani Roumaissa
